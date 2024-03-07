@@ -1,0 +1,214 @@
+export const Oppopage1 = [
+    {
+    "value":"1",
+    "url":"http://localhost:3000/oppo"
+    },
+    {
+    "value":"2",
+    "url":"http://localhost:3000/oppo/page-2"
+    },
+    {
+    "value":"3",
+    "url":"http://localhost:3000/oppo/page-3"
+    },
+    {
+    "value":"4",
+    "url":"http://localhost:3000/oppo/page-4"
+    },
+    {
+    "value":"5",
+    "url":"http://localhost:3000/oppo/page-5"
+    },
+    {
+    "value":"6",
+    "url":"http://localhost:3000/oppo/page-6"
+    },
+    {
+    "value":"next",
+    "url":"http://localhost:3000/oppo/page-2"
+    },
+    {
+    "value":"previous",
+    "url":""
+    }
+    
+]
+
+export const Oppopage2 = [
+    {
+    "value":"1",
+    "url":"http://localhost:3000/oppo"
+    },
+    {
+    "value":"2",
+    "url":"http://localhost:3000/oppo/page-2"
+    },
+    {
+    "value":"3",
+    "url":"http://localhost:3000/oppo/page-3"
+    },
+    {
+    "value":"4",
+    "url":"http://localhost:3000/oppo/page-4"
+    },
+    {
+    "value":"5",
+    "url":"http://localhost:3000/oppo/page-5"
+    },
+    {
+    "value":"6",
+    "url":"http://localhost:3000/oppo/page-6"
+    },
+    {
+    "value":"next",
+    "url":"http://localhost:3000/oppo/page-3"
+    },
+    {
+    "value":"previous",
+    "url":"http://localhost:3000/oppo/page-1"
+    }
+    
+]
+
+export const Oppopage3 = [
+    {
+    "value":"1",
+    "url":"http://localhost:3000/oppo"
+    },
+    {
+    "value":"2",
+    "url":"http://localhost:3000/oppo/page-2"
+    },
+    {
+    "value":"3",
+    "url":"http://localhost:3000/oppo/page-3"
+    },
+    {
+    "value":"4",
+    "url":"http://localhost:3000/oppo/page-4"
+    },
+    {
+    "value":"5",
+    "url":"http://localhost:3000/oppo/page-5"
+    },
+    {
+    "value":"6",
+    "url":"http://localhost:3000/oppo/page-6"
+    },
+    {
+    "value":"next",
+    "url":"http://localhost:3000/oppo/page-4"
+    },
+    {
+    "value":"previous",
+    "url":"http://localhost:3000/oppo/page-2"
+    }  
+]
+
+export const Oppopage4 = [
+    {
+    "value":"1",
+    "url":"http://localhost:3000/oppo"
+    },
+    {
+    "value":"2",
+    "url":"http://localhost:3000/oppo/page-2"
+    },
+    {
+    "value":"3",
+    "url":"http://localhost:3000/oppo/page-3"
+    },
+    {
+    "value":"4",
+    "url":"http://localhost:3000/oppo/page-4"
+    },
+    {
+    "value":"5",
+    "url":"http://localhost:3000/oppo/page-5"
+    },
+    {
+    "value":"6",
+    "url":"http://localhost:3000/oppo/page-6"
+    },
+    {
+    "value":"next",
+    "url":"http://localhost:3000/oppo/page-5"
+    },
+    {
+    "value":"previous",
+    "url":"http://localhost:3000/oppo/page-3"
+    }
+]
+
+export const Oppopage5 = [
+    {
+    "value":"1",
+    "url":"http://localhost:3000/oppo"
+    },
+    {
+    "value":"2",
+    "url":"http://localhost:3000/oppo/page-2"
+    },
+    {
+    "value":"3",
+    "url":"http://localhost:3000/oppo/page-3"
+    },
+    {
+    "value":"4",
+    "url":"http://localhost:3000/oppo/page-4"
+    },
+    {
+    "value":"5",
+    "url":"http://localhost:3000/oppo/page-5"
+    },
+    {
+    "value":"6",
+    "url":"http://localhost:3000/oppo/page-6"
+    },
+    {
+    "value":"next",
+    "url":"http://localhost:3000/oppo/page-6"
+    },
+    {
+    "value":"previous",
+    "url":"http://localhost:3000/oppo/page-4"
+    }
+    
+]
+
+export const Oppopage6 = [
+    {
+    "value":"1",
+    "url":"http://localhost:3000/oppo"
+    },
+    {
+    "value":"2",
+    "url":"http://localhost:3000/oppo/page-2"
+    },
+    {
+    "value":"3",
+    "url":"http://localhost:3000/oppo/page-3"
+    },
+    {
+    "value":"4",
+    "url":"http://localhost:3000/oppo/page-4"
+    },
+    {
+    "value":"5",
+    "url":"http://localhost:3000/oppo/page-5"
+    },
+    {
+    "value":"6",
+    "url":"http://localhost:3000/oppo/page-6"
+    },
+    {
+    "value":"next",
+    "url":""
+    },
+    {
+    "value":"previous",
+    "url":"http://localhost:3000/oppo/page-5"
+    }
+    
+]
+

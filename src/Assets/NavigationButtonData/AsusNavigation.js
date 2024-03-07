@@ -1,0 +1,110 @@
+export const asuspage1 = [
+    {
+    "value":"1",
+    "url":"http://localhost:3000/asus"
+    },
+    {
+    "value":"2",
+    "url":"http://localhost:3000/asus/page-2"
+    },
+    {
+    "value":"3",
+    "url":"http://localhost:3000/asus/page-3"
+    },
+    {
+    "value":"4",
+    "url":"http://localhost:3000/asus/page-4"
+    },
+    {
+    "value":"next",
+    "url":"http://localhost:3000/asus/page-2"
+    },
+    {
+    "value":"previous",
+    "url":""
+    }
+    
+]
+
+export const asuspage2 = [
+    {
+    "value":"1",
+    "url":"http://localhost:3000/asus"
+    },
+    {
+    "value":"2",
+    "url":"http://localhost:3000/asus/page-2"
+    },
+    {
+    "value":"3",
+    "url":"http://localhost:3000/asus/page-3"
+    },
+    {
+    "value":"4",
+    "url":"http://localhost:3000/asus/page-4"
+    },
+    {
+    "value":"next",
+    "url":"http://localhost:3000/asus/page-3"
+    },
+    {
+    "value":"previous",
+    "url":"http://localhost:3000/asus/page-1"
+    }
+    
+]
+
+export const asuspage3 = [
+    {
+    "value":"1",
+    "url":"http://localhost:3000/asus"
+    },
+    {
+    "value":"2",
+    "url":"http://localhost:3000/asus/page-2"
+    },
+    {
+    "value":"3",
+    "url":"http://localhost:3000/asus/page-3"
+    },
+    {
+    "value":"4",
+    "url":"http://localhost:3000/asus/page-4"
+    },
+    {
+    "value":"next",
+    "url":"http://localhost:3000/asus/page-4"
+    },
+    {
+    "value":"previous",
+    "url":"http://localhost:3000/asus/page-2"
+    }  
+]
+
+export const asuspage4 = [
+    {
+    "value":"1",
+    "url":"http://localhost:3000/asus"
+    },
+    {
+    "value":"2",
+    "url":"http://localhost:3000/asus/page-2"
+    },
+    {
+    "value":"3",
+    "url":"http://localhost:3000/asus/page-3"
+    },
+    {
+    "value":"4",
+    "url":"http://localhost:3000/asus/page-4"
+    },
+    {
+    "value":"next",
+    "url":""
+    },
+    {
+    "value":"previous",
+    "url":"http://localhost:3000/asus/page-3"
+    }
+]
+

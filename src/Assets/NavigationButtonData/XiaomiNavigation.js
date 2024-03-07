@@ -1,0 +1,276 @@
+export const Xiaomipage1 = [
+    {
+    "value":"1",
+    "url":"http://localhost:3000/xiaomi"
+    },
+    {
+    "value":"2",
+    "url":"http://localhost:3000/xiaomi/page-2"
+    },
+    {
+    "value":"3",
+    "url":"http://localhost:3000/xiaomi/page-3"
+    },
+    {
+    "value":"4",
+    "url":"http://localhost:3000/xiaomi/page-4"
+    },
+    {
+    "value":"5",
+    "url":"http://localhost:3000/xiaomi/page-5"
+    },
+    {
+    "value":"6",
+    "url":"http://localhost:3000/xiaomi/page-6"
+    },
+    {        "value":"7",
+    "url":"http://localhost:3000/xiaomi/page-7"
+    },
+    {
+    "value":"next",
+    "url":"http://localhost:3000/xiaomi/page-2"
+    },
+    {
+    "value":"previous",
+    "url":""
+    }
+    
+]
+
+export const Xiaomipage2 = [
+    {
+    "value":"1",
+    "url":"http://localhost:3000/xiaomi"
+    },
+    {
+    "value":"2",
+    "url":"http://localhost:3000/xiaomi/page-2"
+    },
+    {
+    "value":"3",
+    "url":"http://localhost:3000/xiaomi/page-3"
+    },
+    {
+    "value":"4",
+    "url":"http://localhost:3000/xiaomi/page-4"
+    },
+    {
+    "value":"5",
+    "url":"http://localhost:3000/xiaomi/page-5"
+    },
+    {
+    "value":"6",
+    "url":"http://localhost:3000/xiaomi/page-6"
+    },
+    {
+    "value":"7",
+    "url":"http://localhost:3000/xiaomi/page-7"
+    },
+    {
+    "value":"next",
+    "url":"http://localhost:3000/xiaomi/page-3"
+    },
+    {
+    "value":"previous",
+    "url":"http://localhost:3000/xiaomi/page-1"
+    }
+    
+]
+
+export const Xiaomipage3 = [
+    {
+    "value":"1",
+    "url":"http://localhost:3000/xiaomi"
+    },
+    {
+    "value":"2",
+    "url":"http://localhost:3000/xiaomi/page-2"
+    },
+    {
+    "value":"3",
+    "url":"http://localhost:3000/xiaomi/page-3"
+    },
+    {
+    "value":"4",
+    "url":"http://localhost:3000/xiaomi/page-4"
+    },
+    {
+    "value":"5",
+    "url":"http://localhost:3000/xiaomi/page-5"
+    },
+    {
+    "value":"6",
+    "url":"http://localhost:3000/xiaomi/page-6"
+    },
+    {
+    "value":"7",
+    "url":"http://localhost:3000/xiaomi/page-7"
+    },
+    {
+    "value":"next",
+    "url":"http://localhost:3000/xiaomi/page-4"
+    },
+    {
+    "value":"previous",
+    "url":"http://localhost:3000/xiaomi/page-2"
+    }  
+]
+
+export const Xiaomipage4 = [
+    {
+    "value":"1",
+    "url":"http://localhost:3000/xiaomi"
+    },
+    {
+    "value":"2",
+    "url":"http://localhost:3000/xiaomi/page-2"
+    },
+    {
+    "value":"3",
+    "url":"http://localhost:3000/xiaomi/page-3"
+    },
+    {
+    "value":"4",
+    "url":"http://localhost:3000/xiaomi/page-4"
+    },
+    {
+    "value":"5",
+    "url":"http://localhost:3000/xiaomi/page-5"
+    },
+    {
+    "value":"6",
+    "url":"http://localhost:3000/xiaomi/page-6"
+    },
+    {
+    "value":"7",
+    "url":"http://localhost:3000/xiaomi/page-7"
+    },
+    {
+    "value":"next",
+    "url":"http://localhost:3000/xiaomi/page-5"
+    },
+    {
+    "value":"previous",
+    "url":"http://localhost:3000/xiaomi/page-3"
+    }
+]
+
+export const Xiaomipage5 = [
+    {
+    "value":"1",
+    "url":"http://localhost:3000/xiaomi"
+    },
+    {
+    "value":"2",
+    "url":"http://localhost:3000/xiaomi/page-2"
+    },
+    {
+    "value":"3",
+    "url":"http://localhost:3000/xiaomi/page-3"
+    },
+    {
+    "value":"4",
+    "url":"http://localhost:3000/xiaomi/page-4"
+    },
+    {
+    "value":"5",
+    "url":"http://localhost:3000/xiaomi/page-5"
+    },
+    {
+    "value":"6",
+    "url":"http://localhost:3000/xiaomi/page-6"
+    },
+    {
+    "value":"7",
+    "url":"http://localhost:3000/xiaomi/page-7"
+    },
+    {
+    "value":"next",
+    "url":"http://localhost:3000/xiaomi/page-6"
+    },
+    {
+    "value":"previous",
+    "url":"http://localhost:3000/xiaomi/page-4"
+    }
+    
+]
+
+export const Xiaomipage6 = [
+    {
+    "value":"1",
+    "url":"http://localhost:3000/xiaomi"
+    },
+    {
+    "value":"2",
+    "url":"http://localhost:3000/xiaomi/page-2"
+    },
+    {
+    "value":"3",
+    "url":"http://localhost:3000/xiaomi/page-3"
+    },
+    {
+    "value":"4",
+    "url":"http://localhost:3000/xiaomi/page-4"
+    },
+    {
+    "value":"5",
+    "url":"http://localhost:3000/xiaomi/page-5"
+    },
+    {
+    "value":"6",
+    "url":"http://localhost:3000/xiaomi/page-6"
+    },
+    {
+    "value":"7",
+    "url":"http://localhost:3000/xiaomi/page-7"
+    },
+    {
+    "value":"next",
+    "url":"http://localhost:3000/xiaomi/page-7"
+    },
+    {
+    "value":"previous",
+    "url":"http://localhost:3000/xiaomi/page-5"
+    }
+    
+]
+
+export const Xiaomipage7 = [
+    {
+    "value":"1",
+    "url":"http://localhost:3000/xiaomi"
+    },
+    {
+    "value":"2",
+    "url":"http://localhost:3000/xiaomi/page-2"
+    },
+    {
+    "value":"3",
+    "url":"http://localhost:3000/xiaomi/page-3"
+    },
+    {
+    "value":"4",
+    "url":"http://localhost:3000/xiaomi/page-4"
+    },
+    {
+    "value":"5",
+    "url":"http://localhost:3000/xiaomi/page-5"
+    },
+    {
+    "value":"6",
+    "url":"http://localhost:3000/xiaomi/page-6"
+    },
+    {
+    "value":"7",
+    "url":"http://localhost:3000/xiaomi/page-7"
+    },
+    {
+    "value":"next",
+    "url":""
+    },
+    {
+    "value":"previous",
+    "url":"http://localhost:3000/xiaomi/page-6"
+    }
+    
+]

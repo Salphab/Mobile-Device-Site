@@ -1,0 +1,276 @@
+export const ZTEpage1 = [
+    {
+    "value":"1",
+    "url":"http://localhost:3000/zte"
+    },
+    {
+    "value":"2",
+    "url":"http://localhost:3000/zte/page-2"
+    },
+    {
+    "value":"3",
+    "url":"http://localhost:3000/zte/page-3"
+    },
+    {
+    "value":"4",
+    "url":"http://localhost:3000/zte/page-4"
+    },
+    {
+    "value":"5",
+    "url":"http://localhost:3000/zte/page-5"
+    },
+    {
+    "value":"6",
+    "url":"http://localhost:3000/zte/page-6"
+    },
+    {        "value":"7",
+    "url":"http://localhost:3000/zte/page-7"
+    },
+    {
+    "value":"next",
+    "url":"http://localhost:3000/zte/page-2"
+    },
+    {
+    "value":"previous",
+    "url":""
+    }
+    
+]
+
+export const ZTEpage2 = [
+    {
+    "value":"1",
+    "url":"http://localhost:3000/zte"
+    },
+    {
+    "value":"2",
+    "url":"http://localhost:3000/zte/page-2"
+    },
+    {
+    "value":"3",
+    "url":"http://localhost:3000/zte/page-3"
+    },
+    {
+    "value":"4",
+    "url":"http://localhost:3000/zte/page-4"
+    },
+    {
+    "value":"5",
+    "url":"http://localhost:3000/zte/page-5"
+    },
+    {
+    "value":"6",
+    "url":"http://localhost:3000/zte/page-6"
+    },
+    {
+    "value":"7",
+    "url":"http://localhost:3000/zte/page-7"
+    },
+    {
+    "value":"next",
+    "url":"http://localhost:3000/zte/page-3"
+    },
+    {
+    "value":"previous",
+    "url":"http://localhost:3000/zte/page-1"
+    }
+    
+]
+
+export const ZTEpage3 = [
+    {
+    "value":"1",
+    "url":"http://localhost:3000/zte"
+    },
+    {
+    "value":"2",
+    "url":"http://localhost:3000/zte/page-2"
+    },
+    {
+    "value":"3",
+    "url":"http://localhost:3000/zte/page-3"
+    },
+    {
+    "value":"4",
+    "url":"http://localhost:3000/zte/page-4"
+    },
+    {
+    "value":"5",
+    "url":"http://localhost:3000/zte/page-5"
+    },
+    {
+    "value":"6",
+    "url":"http://localhost:3000/zte/page-6"
+    },
+    {
+    "value":"7",
+    "url":"http://localhost:3000/zte/page-7"
+    },
+    {
+    "value":"next",
+    "url":"http://localhost:3000/zte/page-4"
+    },
+    {
+    "value":"previous",
+    "url":"http://localhost:3000/zte/page-2"
+    }  
+]
+
+export const ZTEpage4 = [
+    {
+    "value":"1",
+    "url":"http://localhost:3000/zte"
+    },
+    {
+    "value":"2",
+    "url":"http://localhost:3000/zte/page-2"
+    },
+    {
+    "value":"3",
+    "url":"http://localhost:3000/zte/page-3"
+    },
+    {
+    "value":"4",
+    "url":"http://localhost:3000/zte/page-4"
+    },
+    {
+    "value":"5",
+    "url":"http://localhost:3000/zte/page-5"
+    },
+    {
+    "value":"6",
+    "url":"http://localhost:3000/zte/page-6"
+    },
+    {
+    "value":"7",
+    "url":"http://localhost:3000/zte/page-7"
+    },
+    {
+    "value":"next",
+    "url":"http://localhost:3000/zte/page-5"
+    },
+    {
+    "value":"previous",
+    "url":"http://localhost:3000/zte/page-3"
+    }
+]
+
+export const ZTEpage5 = [
+    {
+    "value":"1",
+    "url":"http://localhost:3000/zte"
+    },
+    {
+    "value":"2",
+    "url":"http://localhost:3000/zte/page-2"
+    },
+    {
+    "value":"3",
+    "url":"http://localhost:3000/zte/page-3"
+    },
+    {
+    "value":"4",
+    "url":"http://localhost:3000/zte/page-4"
+    },
+    {
+    "value":"5",
+    "url":"http://localhost:3000/zte/page-5"
+    },
+    {
+    "value":"6",
+    "url":"http://localhost:3000/zte/page-6"
+    },
+    {
+    "value":"7",
+    "url":"http://localhost:3000/zte/page-7"
+    },
+    {
+    "value":"next",
+    "url":"http://localhost:3000/zte/page-6"
+    },
+    {
+    "value":"previous",
+    "url":"http://localhost:3000/zte/page-4"
+    }
+    
+]
+
+export const ZTEpage6 = [
+    {
+    "value":"1",
+    "url":"http://localhost:3000/zte"
+    },
+    {
+    "value":"2",
+    "url":"http://localhost:3000/zte/page-2"
+    },
+    {
+    "value":"3",
+    "url":"http://localhost:3000/zte/page-3"
+    },
+    {
+    "value":"4",
+    "url":"http://localhost:3000/zte/page-4"
+    },
+    {
+    "value":"5",
+    "url":"http://localhost:3000/zte/page-5"
+    },
+    {
+    "value":"6",
+    "url":"http://localhost:3000/zte/page-6"
+    },
+    {
+    "value":"7",
+    "url":"http://localhost:3000/zte/page-7"
+    },
+    {
+    "value":"next",
+    "url":"http://localhost:3000/zte/page-7"
+    },
+    {
+    "value":"previous",
+    "url":"http://localhost:3000/zte/page-5"
+    }
+    
+]
+
+export const ZTEpage7 = [
+    {
+    "value":"1",
+    "url":"http://localhost:3000/zte"
+    },
+    {
+    "value":"2",
+    "url":"http://localhost:3000/zte/page-2"
+    },
+    {
+    "value":"3",
+    "url":"http://localhost:3000/zte/page-3"
+    },
+    {
+    "value":"4",
+    "url":"http://localhost:3000/zte/page-4"
+    },
+    {
+    "value":"5",
+    "url":"http://localhost:3000/zte/page-5"
+    },
+    {
+    "value":"6",
+    "url":"http://localhost:3000/zte/page-6"
+    },
+    {
+    "value":"7",
+    "url":"http://localhost:3000/zte/page-7"
+    },
+    {
+    "value":"next",
+    "url":""
+    },
+    {
+    "value":"previous",
+    "url":"http://localhost:3000/zte/page-6"
+    }
+    
+]

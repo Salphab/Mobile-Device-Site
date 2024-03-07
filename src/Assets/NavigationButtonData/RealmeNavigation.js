@@ -1,0 +1,110 @@
+export const realmepage1 = [
+    {
+    "value":"1",
+    "url":"http://localhost:3000/realme"
+    },
+    {
+    "value":"2",
+    "url":"http://localhost:3000/realme/page-2"
+    },
+    {
+    "value":"3",
+    "url":"http://localhost:3000/realme/page-3"
+    },
+    {
+    "value":"4",
+    "url":"http://localhost:3000/realme/page-4"
+    },
+    {
+    "value":"next",
+    "url":"http://localhost:3000/realme/page-2"
+    },
+    {
+    "value":"previous",
+    "url":""
+    }
+    
+]
+
+export const realmepage2 = [
+    {
+    "value":"1",
+    "url":"http://localhost:3000/realme"
+    },
+    {
+    "value":"2",
+    "url":"http://localhost:3000/realme/page-2"
+    },
+    {
+    "value":"3",
+    "url":"http://localhost:3000/realme/page-3"
+    },
+    {
+    "value":"4",
+    "url":"http://localhost:3000/realme/page-4"
+    },
+    {
+    "value":"next",
+    "url":"http://localhost:3000/realme/page-3"
+    },
+    {
+    "value":"previous",
+    "url":"http://localhost:3000/realme/page-1"
+    }
+    
+]
+
+export const realmepage3 = [
+    {
+    "value":"1",
+    "url":"http://localhost:3000/realme"
+    },
+    {
+    "value":"2",
+    "url":"http://localhost:3000/realme/page-2"
+    },
+    {
+    "value":"3",
+    "url":"http://localhost:3000/realme/page-3"
+    },
+    {
+    "value":"4",
+    "url":"http://localhost:3000/realme/page-4"
+    },
+    {
+    "value":"next",
+    "url":"http://localhost:3000/realme/page-4"
+    },
+    {
+    "value":"previous",
+    "url":"http://localhost:3000/realme/page-2"
+    }  
+]
+
+export const realmepage4 = [
+    {
+    "value":"1",
+    "url":"http://localhost:3000/realme"
+    },
+    {
+    "value":"2",
+    "url":"http://localhost:3000/realme/page-2"
+    },
+    {
+    "value":"3",
+    "url":"http://localhost:3000/realme/page-3"
+    },
+    {
+    "value":"4",
+    "url":"http://localhost:3000/realme/page-4"
+    },
+    {
+    "value":"next",
+    "url":""
+    },
+    {
+    "value":"previous",
+    "url":"http://localhost:3000/realme/page-3"
+    }
+]
+

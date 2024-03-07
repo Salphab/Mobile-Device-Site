@@ -1,0 +1,213 @@
+export const Huaweipage1 = [
+    {
+    "value":"1",
+    "url":"http://localhost:3000/huawei"
+    },
+    {
+    "value":"2",
+    "url":"http://localhost:3000/huawei/page-2"
+    },
+    {
+    "value":"3",
+    "url":"http://localhost:3000/huawei/page-3"
+    },
+    {
+    "value":"4",
+    "url":"http://localhost:3000/huawei/page-4"
+    },
+    {
+    "value":"5",
+    "url":"http://localhost:3000/huawei/page-5"
+    },
+    {
+    "value":"6",
+    "url":"http://localhost:3000/huawei/page-6"
+    },
+    {
+    "value":"next",
+    "url":"http://localhost:3000/huawei/page-2"
+    },
+    {
+    "value":"previous",
+    "url":""
+    }
+    
+]
+
+export const Huaweipage2 = [
+    {
+    "value":"1",
+    "url":"http://localhost:3000/huawei"
+    },
+    {
+    "value":"2",
+    "url":"http://localhost:3000/huawei/page-2"
+    },
+    {
+    "value":"3",
+    "url":"http://localhost:3000/huawei/page-3"
+    },
+    {
+    "value":"4",
+    "url":"http://localhost:3000/huawei/page-4"
+    },
+    {
+    "value":"5",
+    "url":"http://localhost:3000/huawei/page-5"
+    },
+    {
+    "value":"6",
+    "url":"http://localhost:3000/huawei/page-6"
+    },
+    {
+    "value":"next",
+    "url":"http://localhost:3000/huawei/page-3"
+    },
+    {
+    "value":"previous",
+    "url":"http://localhost:3000/huawei/page-1"
+    }
+    
+]
+
+export const Huaweipage3 = [
+    {
+    "value":"1",
+    "url":"http://localhost:3000/huawei"
+    },
+    {
+    "value":"2",
+    "url":"http://localhost:3000/huawei/page-2"
+    },
+    {
+    "value":"3",
+    "url":"http://localhost:3000/huawei/page-3"
+    },
+    {
+    "value":"4",
+    "url":"http://localhost:3000/huawei/page-4"
+    },
+    {
+    "value":"5",
+    "url":"http://localhost:3000/huawei/page-5"
+    },
+    {
+    "value":"6",
+    "url":"http://localhost:3000/huawei/page-6"
+    },
+    {
+    "value":"next",
+    "url":"http://localhost:3000/huawei/page-4"
+    },
+    {
+    "value":"previous",
+    "url":"http://localhost:3000/huawei/page-2"
+    }  
+]
+
+export const Huaweipage4 = [
+    {
+    "value":"1",
+    "url":"http://localhost:3000/huawei"
+    },
+    {
+    "value":"2",
+    "url":"http://localhost:3000/huawei/page-2"
+    },
+    {
+    "value":"3",
+    "url":"http://localhost:3000/huawei/page-3"
+    },
+    {
+    "value":"4",
+    "url":"http://localhost:3000/huawei/page-4"
+    },
+    {
+    "value":"5",
+    "url":"http://localhost:3000/huawei/page-5"
+    },
+    {
+    "value":"6",
+    "url":"http://localhost:3000/huawei/page-6"
+    },
+    {
+    "value":"next",
+    "url":"http://localhost:3000/huawei/page-5"
+    },
+    {
+    "value":"previous",
+    "url":"http://localhost:3000/huawei/page-3"
+    }
+]
+
+export const Huaweipage5 = [
+    {
+    "value":"1",
+    "url":"http://localhost:3000/huawei"
+    },
+    {
+    "value":"2",
+    "url":"http://localhost:3000/huawei/page-2"
+    },
+    {
+    "value":"3",
+    "url":"http://localhost:3000/huawei/page-3"
+    },
+    {
+    "value":"4",
+    "url":"http://localhost:3000/huawei/page-4"
+    },
+    {
+    "value":"5",
+    "url":"http://localhost:3000/huawei/page-5"
+    },
+    {
+    "value":"6",
+    "url":"http://localhost:3000/huawei/page-6"
+    },
+    {
+    "value":"next",
+    "url":"http://localhost:3000/huawei/page-6"
+    },
+    {
+    "value":"previous",
+    "url":"http://localhost:3000/huawei/page-4"
+    }
+    
+]
+
+export const Huaweipage6 = [
+    {
+    "value":"1",
+    "url":"http://localhost:3000/huawei"
+    },
+    {
+    "value":"2",
+    "url":"http://localhost:3000/huawei/page-2"
+    },
+    {
+    "value":"3",
+    "url":"http://localhost:3000/huawei/page-3"
+    },
+    {
+    "value":"4",
+    "url":"http://localhost:3000/huawei/page-4"
+    },
+    {
+    "value":"5",
+    "url":"http://localhost:3000/huawei/page-5"
+    },
+    {
+    "value":"6",
+    "url":"http://localhost:3000/huawei/page-6"
+    },
+    {
+    "value":"next",
+    "url":""
+    },
+    {
+    "value":"previous",
+    "url":"http://localhost:3000/huawei/page-5"
+    }
+    
+]

@@ -1,0 +1,157 @@
+export const infinixpage1 = [
+    {
+    "value":"1",
+    "url":"http://localhost:3000/infinix"
+    },
+    {
+    "value":"2",
+    "url":"http://localhost:3000/infinix/page-2"
+    },
+    {
+    "value":"3",
+    "url":"http://localhost:3000/infinix/page-3"
+    },
+    {
+    "value":"4",
+    "url":"http://localhost:3000/infinix/page-4"
+    },
+    {
+    "value":"5",
+    "url":"http://localhost:3000/infinix/page-5"
+    },
+    {
+    "value":"next",
+    "url":"http://localhost:3000/infinix/page-2"
+    },
+    {
+    "value":"previous",
+    "url":""
+    }
+    
+]
+
+export const infinixpage2 = [
+    {
+    "value":"1",
+    "url":"http://localhost:3000/infinix"
+    },
+    {
+    "value":"2",
+    "url":"http://localhost:3000/infinix/page-2"
+    },
+    {
+    "value":"3",
+    "url":"http://localhost:3000/infinix/page-3"
+    },
+    {
+    "value":"4",
+    "url":"http://localhost:3000/infinix/page-4"
+    },
+    {
+    "value":"5",
+    "url":"http://localhost:3000/infinix/page-5"
+    },
+    {
+    "value":"next",
+    "url":"http://localhost:3000/infinix/page-3"
+    },
+    {
+    "value":"previous",
+    "url":"http://localhost:3000/infinix/page-1"
+    }
+    
+]
+
+export const infinixpage3 = [
+    {
+    "value":"1",
+    "url":"http://localhost:3000/infinix"
+    },
+    {
+    "value":"2",
+    "url":"http://localhost:3000/infinix/page-2"
+    },
+    {
+    "value":"3",
+    "url":"http://localhost:3000/infinix/page-3"
+    },
+    {
+    "value":"4",
+    "url":"http://localhost:3000/infinix/page-4"
+    },
+    {
+    "value":"5",
+    "url":"http://localhost:3000/infinix/page-5"
+    },
+    {
+    "value":"next",
+    "url":"http://localhost:3000/infinix/page-4"
+    },
+    {
+    "value":"previous",
+    "url":"http://localhost:3000/infinix/page-2"
+    }  
+]
+
+export const infinixpage4 = [
+    {
+    "value":"1",
+    "url":"http://localhost:3000/infinix"
+    },
+    {
+    "value":"2",
+    "url":"http://localhost:3000/infinix/page-2"
+    },
+    {
+    "value":"3",
+    "url":"http://localhost:3000/infinix/page-3"
+    },
+    {
+    "value":"4",
+    "url":"http://localhost:3000/infinix/page-4"
+    },
+    {
+    "value":"5",
+    "url":"http://localhost:3000/infinix/page-5"
+    },
+    {
+    "value":"next",
+    "url":"http://localhost:3000/infinix/page-5"
+    },
+    {
+    "value":"previous",
+    "url":"http://localhost:3000/infinix/page-3"
+    }
+]
+
+export const infinixpage5 = [
+    {
+    "value":"1",
+    "url":"http://localhost:3000/infinix"
+    },
+    {
+    "value":"2",
+    "url":"http://localhost:3000/infinix/page-2"
+    },
+    {
+    "value":"3",
+    "url":"http://localhost:3000/infinix/page-3"
+    },
+    {
+    "value":"4",
+    "url":"http://localhost:3000/infinix/page-4"
+    },
+    {
+    "value":"5",
+    "url":"http://localhost:3000/infinix/page-5"
+    },
+    {
+    "value":"next",
+    "url":""
+    },
+    {
+    "value":"previous",
+    "url":"http://localhost:3000/infinix/page-4"
+    }
+    
+]
