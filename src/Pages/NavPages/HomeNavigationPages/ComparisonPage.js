@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from "../../../Components/Header/Header";
 import HomeSidebar from '../../../Components/Sidebar/HomeSidebar';
-import ComparisonContent from '../../../Components/BodyContent/Comparison/ComparisonContent';
+import ComparisonContent from '../../../Components/PageBodyContent/Comparison/ComparisonContent';
 
 function ComparisonPage(){
     return(

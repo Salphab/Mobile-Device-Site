@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from "../../../Components/Header/Header";
 import HomeSidebar from '../../../Components/Sidebar/HomeSidebar';
-import VideoContent from '../../../Components/BodyContent/VideoPage/VideoPageContent';
+import VideoContent from '../../../Components/PageBodyContent/VideoPage/VideoPageContent';
 function VideoPage(){
     return(
         <React.Fragment>

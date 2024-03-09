@@ -8,8 +8,8 @@ function PageThemes(){
         <VideoContext.Consumer>
             {()=>{
                 return(
-                    <div class='relative w-[100%] max-w-[100%] h-[59vh] mb-[2%]'>
-                        <img class='relative w-[100%] max-w-[100%] h-[100%]' src={imgUrl} alt={imgAlt} />
+                    <div class='relative w-[100%] max-w-[100%] h-[40vh] mb-[2%]'>
+                        <img class='relative w-[100%] object-cover max-w-[100%] h-[100%]' src={imgUrl} alt={imgAlt} />
                         <Themebanner BannerName='Review Videos' filter='false' />
                     </div>
                 )

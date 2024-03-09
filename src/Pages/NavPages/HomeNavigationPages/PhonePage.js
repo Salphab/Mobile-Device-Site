@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from "../../../Components/Header/Header";
 import HomeSidebar from '../../../Components/Sidebar/HomeSidebar';
-import PhonePageContent from '../../../Components/BodyContent/PhonePage/PhonePageContent';
+import PhonePageContent from '../../../Components/PageBodyContent/PhonePage/PhonePageContent';
 
 function PhonePage(){
     return(

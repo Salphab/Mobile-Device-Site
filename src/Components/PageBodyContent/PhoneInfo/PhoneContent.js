@@ -2,6 +2,7 @@ import { context } from "../../../Pages/PhonePage/PhonePersona";
 import { useContext} from "react";
 import DeviceSummary from "./DeviceSummary";
 import DeviceFullInfo from "./DeviceFullInfo";
+import Disclaimer from "../../Disclaimer/Disclaimer";
 
 function PhoneContent(){
     const Context = useContext(context);
@@ -14,6 +15,7 @@ function PhoneContent(){
                 <DeviceSummary />
             </div>
             <DeviceFullInfo />
+            <Disclaimer />
         </section>
     )
 }

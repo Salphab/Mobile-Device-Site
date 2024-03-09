@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from "../../../Components/Header/Header";
 import HomeSidebar from '../../../Components/Sidebar/HomeSidebar';
-import ReviewContent from '../../../Components/BodyContent/ReviewPage/ReviewPageContent';
+import ReviewContent from '../../../Components/PageBodyContent/ReviewPage/ReviewPageContent';
 
 function ReviewPage(){
     return(

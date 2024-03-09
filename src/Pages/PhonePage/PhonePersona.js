@@ -2,7 +2,7 @@ import Header from "../../Components/Header/Header";
 import { useParams} from "react-router-dom";
 import { useEffect, useState } from "react";
 import Footer from "../../Components/Footer/Footer";
-import PhoneInfoBody from "../../Components/BodyContent/PhoneInfo/PhoneInfoBody";
+import PhoneInfoBody from "../../Components/PageBodyContent/PhoneInfo/PhoneInfoBody";
 import { createContext } from "react";
 import axios from "axios";
 

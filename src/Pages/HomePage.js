@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from '../Components/Header/Header';
-import HomeBody from '../Components/BodyContent/HomePage/Homebodysection';
+import HomeBody from '../Components/PageBodyContent/HomePage/Homebodysection';
 import Footer from '../Components/Footer/Footer';
 function HomePage(){
     return(

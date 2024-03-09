@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from "../../../Components/Header/Header";
 import HomeSidebar from '../../../Components/Sidebar/HomeSidebar';
-import EventPageContent from '../../../Components/BodyContent/EventsPage/EventPageContent';
+import EventPageContent from '../../../Components/PageBodyContent/EventsPage/EventPageContent';
 
 function EventPage(){
     return(

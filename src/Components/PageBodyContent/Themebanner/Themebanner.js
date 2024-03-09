@@ -6,25 +6,23 @@ on the component.
 function Themebanner(props){
     if(props.filter === 'true'){
         return(
-            <div class='absolute grid grid-cols-12 grid-rows-6 z-50 bottom-[10%] w-[63vw] h-[10vh] max-w-[100%]'>
-                <div class='relative col-start-1 col-end-5 row-start-1 row-end-7 mx-[2%] h-[100%]'>
-                    <h2 class='relative text-white w-[100%] max-w-[fit-content] text-[1.7rem] font-bold py-[2%] px-[7%] bg-[rgba(0,0,0,0.6)]'>{props.BannerName}</h2>
-                </div>
-                        <div class='relative col-start-5 col-end-13 row-start-1 row-end-7 h-[100%]'>
-                            <form class='relative float-right w-[100%] max-w-[70%] h-[100%]'>
-                                <label class='relative  font-bold' htmlFor="search">Filter :</label>
-                                <input class='relative rounded mt-[5%] w-[100%] max-w-[60%] border-[2px] border-gray-300 focus:border-black placeholder:text-[0.9rem] placeholder:text-black placeholder:px-[1%] placeholder:left-[2%] focus:outline-none mx-[2%] h-[50%] ' type="text" name="search" placeholder='Search'/>
-                                <input class='relative bg-black text-white font-semibold w-[100%] max-w-[15%] h-[50%]' type='submit' />
-                            </form>
-                        </div>
+            <div class='absolute grid grid-cols-12 grid-rows-6 z-50 bottom-0 w-[100%] h-[10vh] max-w-[100%]'>
+                <div class='relative flex col-start-1 col-end-13 row-start-1 row-end-7 h-[100%] bg-[rgba(0,0,0,0.6)]'>
+                    <h2 class='relative text-white font-[monserrat] w-[100%] max-w-[fit-content] text-[1.8rem] font-bold ml-4 m-auto'>{props.BannerName}</h2>
+                    <form class='relative flex float-right w-[100%] m-auto max-w-[50%] h-[100%]'>
+                        <label class='relative  font-bold font-[monserrat] m-auto mx-3 text-white' htmlFor="search">Filter :</label>
+                        <input class='relative rounded m-auto w-[100%] max-w-[60%] border-[2px] border-gray-300 focus:border-black placeholder:text-[0.9rem] pl-[1%] placeholder:font-[monserrat] placeholder:text-black placeholder:px-[1%] placeholder:left-[2%] focus:outline-none mx-1 h-[60%] ' type="text" name="search" placeholder='Search'/>
+                        <input class='relative bg-gray-500 rounded text-white font-semibold m-auto mx-0 w-[100%] max-w-[15%] h-[50%]' type='submit' />
+                    </form>
+                </div>  
             </div>
         )
 
     }
     return(
-        <div class='absolute grid grid-cols-12 grid-rows-6 z-50 bottom-[10%] w-[63vw] h-[10vh] max-w-[100%]'>
-                <div class='relative col-start-1 col-end-5 row-start-1 row-end-7 mx-[2%] h-[100%]'>
-                    <h2 class='relative text-white w-[100%] max-w-[fit-content] text-[1.7rem] font-bold py-[2%] px-[7%] bg-[rgba(0,0,0,0.5)]'>{props.BannerName}</h2>
+        <div class='absolute grid grid-cols-12 grid-rows-6 z-50 bottom-0 w-[100%] h-[10vh] max-w-[100%]'>
+                <div class='relative col-start-1 col-end-13 row-start-1 row-end-7 bg-[rgba(0,0,0,0.5)] h-[100%]'>
+                    <h2 class='relative text-white w-[100%] font-[monserrat] max-w-[fit-content] text-[1.8rem] font-bold py-[1%] px-[3%]'>{props.BannerName}</h2>
                 </div>
         </div>
     )
