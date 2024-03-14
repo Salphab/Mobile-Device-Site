@@ -29,8 +29,8 @@ function ComparisonSearch(props){
             <div class='relative flex w-[100%] max-w-[95%] m-auto h-[85%] border-t-[1px] border-gray-400'>
                 <SearchIcon className='relative text-gray-500 text-[7rem] m-auto text-gray-400'/>
             </div>
-            <div class='absolute hidden overflow-y-scroll top-[16%] ml-[5%] mt-[4%] w-[100%] max-w-[90%] h-[80%] bg-white' ref={suggestionRef}>
-                {value.map((items)=>{
+            <div class='absolute hidden overflow-y-scroll top-[16%] ml-[5%] mt-[4%] w-[100%] max-w-[90%] h-[fit-content] bg-white' ref={suggestionRef}>
+                {value.slice(0,10).map((items)=>{
                     return(
                         <ul>
                             <li class='relative text-sm'>{items}</li>
