@@ -22,7 +22,7 @@ function Main(){
         <Route  path="/videos" element={<VideoPage/>}>
             
         </Route>
-        <Route  path="/review" element={<ReviewPage/>}>
+        <Route  path="/review/" element={<ReviewPage/>}>
             
         </Route>
         <Route  path="/news" element={<NewsPage/>}>

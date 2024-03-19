@@ -1,6 +1,7 @@
 import ComparisonTheme from "./ComparisonPageTheme";
 import { ComparisonContext } from "../../../Hooks/Context/ComparisonContext";
 import ComparisonBody from "./ComparisonBody";
+
 const imgUrl = require('../../../Assets/Img/comparison 2.jpg');
 const imgAlt = 'page theme image';
 function ComparisonContent(){

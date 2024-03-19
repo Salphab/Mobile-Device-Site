@@ -2,6 +2,7 @@ import React from 'react';
 import Header from "../../../Components/Header/Header";
 import HomeSidebar from '../../../Components/Sidebar/HomeSidebar';
 import ComparisonContent from '../../../Components/PageBodyContent/Comparison/ComparisonContent';
+import Footer from '../../../Components/Footer/Footer';
 
 function ComparisonPage(){
     return(
@@ -11,6 +12,7 @@ function ComparisonPage(){
                 <HomeSidebar/>
                 <ComparisonContent />
             </section>
+            <Footer />
         </React.Fragment>
     )
 }
