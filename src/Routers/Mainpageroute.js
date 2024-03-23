@@ -34,6 +34,9 @@ function Main(){
         <Route  path="/compare" element={<ComparisonPage/>}>
             
         </Route>
+        <Route  path="/compare/:params" element={<ComparisonPage/>}>
+            
+        </Route>
    </Routes>
     )
 }
