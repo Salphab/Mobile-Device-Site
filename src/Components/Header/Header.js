@@ -15,13 +15,13 @@ function Header(){
             </div>
             <div class='col-start-4 col-end-13 row-start-1 row-end-7'>
                 <ul class='relative w-[100%] flex max-w-[100%] bg-black h-[50%] justify-items-center'>
-                    <Link to='/' class='relative text-white h-[100%] pt-[2%] px-[3%] m-auto'><li class='relative font-semibold hover:border-b-[3px] hover:border-gray-300 font-[montserrat]'>Home</li></Link>
-                    <Link to='/phones' class='relative text-white h-[100%] pt-[2%] px-[3%] m-auto'><li class='relative font-semibold hover:border-b-[3px] hover:border-gray-300 font-[montserrat]'>Phones</li></Link>
-                    <Link to='/review' class='relative text-white h-[100%] pt-[2%] px-[3%] m-auto'><li class='relative font-semibold hover:border-b-[3px] hover:border-gray-300 font-[montserrat]'>Reviews</li></Link>
-                    <Link to='/compare' class='relative text-white h-[100%] pt-[2%] px-[3%] m-auto'><li class='relative font-semibold hover:border-b-[3px] hover:border-gray-300 font-[montserrat]'>Compare</li></Link>
-                    <Link to='/videos' class='relative text-white h-[100%] pt-[2%] px-[3%] m-auto'><li class='relative font-semibold hover:border-b-[3px] hover:border-gray-300 font-[montserrat]'>Videos</li></Link>
-                    <Link to='/news' class='relative text-white h-[100%] pt-[2%] px-[3%] m-auto'><li class='relative font-semibold hover:border-b-[3px] hover:border-gray-300 font-[montserrat]'>News</li></Link>
-                    <Link to='/computing' class='relative text-white h-[100%] pt-[2%] px-[3%] m-auto'><li class='relative text-[0.9rem] font-semibold hover:border-b-[3px] hover:border-gray-300 font-[montserrat]'>Computing</li></Link>
+                    <a href='/' class='relative text-white h-[100%] pt-[2%] px-[3%] m-auto'><li class='relative font-semibold hover:border-b-[3px] hover:border-gray-300 font-[montserrat]'>Home</li></a>
+                    <a href='/phones' class='relative text-white h-[100%] pt-[2%] px-[3%] m-auto'><li class='relative font-semibold hover:border-b-[3px] hover:border-gray-300 font-[montserrat]'>Phones</li></a>
+                    <a href='/review' class='relative text-white h-[100%] pt-[2%] px-[3%] m-auto'><li class='relative font-semibold hover:border-b-[3px] hover:border-gray-300 font-[montserrat]'>Reviews</li></a>
+                    <a href='/compare' class='relative text-white h-[100%] pt-[2%] px-[3%] m-auto'><li class='relative font-semibold hover:border-b-[3px] hover:border-gray-300 font-[montserrat]'>Compare</li></a>
+                    <a href='/videos' class='relative text-white h-[100%] pt-[2%] px-[3%] m-auto'><li class='relative font-semibold hover:border-b-[3px] hover:border-gray-300 font-[montserrat]'>Videos</li></a>
+                    <a href='/news' class='relative text-white h-[100%] pt-[2%] px-[3%] m-auto'><li class='relative font-semibold hover:border-b-[3px] hover:border-gray-300 font-[montserrat]'>News</li></a>
+                    <a href='/computing' class='relative text-white h-[100%] pt-[2%] px-[3%] m-auto'><li class='relative text-[0.9rem] font-semibold hover:border-b-[3px] hover:border-gray-300 font-[montserrat]'>Computing</li></a>
                 </ul>
                 <div class='col-start-4 flex justify-center items-center col-end-13 h-[40%]'>
                     <form class='relative w-[100%] mt-[2%] h-[80%] flex max-w-[50%]'>
