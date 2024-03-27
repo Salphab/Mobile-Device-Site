@@ -1,16 +1,13 @@
 import SearchIcon from '@mui/icons-material/Search';
-import {useRef, useState, useEffect} from 'react';
-import axios from 'axios';
+import {useRef, useState, useContext} from 'react';
+import { ComparisonContext } from '../../../Hooks/Context/ComparisonContext';
 
 function ComparisonSearch3(props){
     const suggestionRef = useRef('');
     const [value, setValue] = useState([]);
     const AllDevices = props.Devices.map((data)=>{ return data.toUpperCase()});
-    const [searchData, setSearchData] = useState('');
-    const parameter = window.location.search;
-    const param = new URLSearchParams(parameter).get('phone3');
-    const endPoint = `http://localhost:4001/device/${param}`;
-
+    const {data3} = useContext(ComparisonContext);
+    
     const onQueryChange = (e)=>{
         const searchTerm = e.target.value.toUpperCase();
         if(searchTerm === ''){
@@ -22,44 +19,38 @@ function ComparisonSearch3(props){
         setValue(AllDevices.filter((data)=>data.includes(searchTerm)))
     }
 
-
-    useEffect(() => {
-        document.title = 'Compare Smartphones, Tablets, and other Devices: Comprehensive side-by-side comparison';
-        if (param) {
-            axios.get(endPoint)
-                .then(res => {
-                    setSearchData(res.data);
-                    console.log(res.data);
-                })
-                .catch(error => console.log(error));
-        }
-    }, [endPoint, setSearchData, parameter]);
-
-    if(searchData){
+    if(data3){
         return(
-            <div class='relative block w-[100%] max-w-[33.34%] h-[95%] mt-[1%] border-r-[1.5px] border-l-[1.5px] border-gray-200'>
-           <form class='relative inline-block w-[100%] mb-[3%] h-[8%] mt-[2%] max-w-[100%]'>
-                <label htmlFor='Devices' class='relative text-xs font-semibold pl-[4%]'>Search for your device</label>
-                <input class='relative border-[1px] border-gray-500 h-[100%] w-[100%] ml-[3%] max-w-[95%] rounded pl-[2%] placeholder:font-[sans-serif] placeholder:pl-[0%] focus:outline-none text-sm' type="text" placeholder='Device to compare' onChange={onQueryChange} />
-            </form>
-            <div class='relative mt-[4%] block w-[100%] max-w-[95%] m-auto h-[70%] border-t-[1px] border-gray-400'>
-                <h2 className='relative w-[100%] max-w-[100%] text-center mt-[3%] text-md font-[monserrat] text-gray-700 font-semibold'>{searchData.name}</h2>
-                <img class='relative m-auto mt-[7%] hover:cursor-pointer' src={searchData.img} alt={searchData.name}/>
-            </div>
-            <div class='absolute hidden top-[16%] ml-[2%] mt-[1%] w-[100%] max-w-[95%] h-[fit-content] bg-white' ref={suggestionRef}>
-                {value.slice(0,10).map((items)=>{
+            <ComparisonContext.Consumer>
+                {()=>{
                     return(
-                        <ul> 
-                            <li class='relative p-[1%] hover:text-blue-600 text-[.8rem] font-semibold'><a href='' onClick={()=>{
-                                const newUrl = new URL(window.location.href)
-                                newUrl.searchParams.set("phone3",items.replaceAll(' ','_').toLowerCase())
-                                window.history.pushState({},'',newUrl)
-                            }}>{items}</a></li>
-                        </ul>
-                    )
-                })}
+                        <div class='relative block w-[100%] max-w-[33.34%] h-[95%] mt-[1%] border-r-[1.5px] border-l-[1.5px] border-gray-200'>
+                <form class='relative inline-block w-[100%] mb-[3%] h-[8%] mt-[2%] max-w-[100%]'>
+                    <label htmlFor='Devices' class='relative text-xs font-semibold pl-[4%]'>Search for your device</label>
+                    <input class='relative border-[1px] border-gray-500 h-[100%] w-[100%] ml-[3%] max-w-[95%] rounded pl-[2%] placeholder:font-[sans-serif] placeholder:pl-[0%] focus:outline-none text-sm' type="text" placeholder='Device to compare' onChange={onQueryChange} />
+                </form>
+                <div class='relative mt-[4%] block w-[100%] max-w-[95%] m-auto h-[70%] border-t-[1px] border-gray-400'>
+                    <h2 className='relative w-[100%] max-w-[100%] text-center mt-[3%] text-md font-[monserrat] text-gray-700 font-semibold'>{data3.name}</h2>
+                    <img class='relative m-auto mt-[7%] hover:cursor-pointer' src={data3.img} alt={data3.name}/>
+                </div>
+                <div class='absolute hidden top-[16%] ml-[2%] mt-[1%] w-[100%] max-w-[95%] h-[fit-content] bg-white' ref={suggestionRef}>
+                    {value.slice(0,10).map((items)=>{
+                        return(
+                            <ul> 
+                                <li class='relative p-[1%] hover:text-blue-600 text-[.8rem] font-semibold'><a href='' onClick={()=>{
+                                    const newUrl = new URL(window.location.href)
+                                    newUrl.searchParams.set("phone3",items.replaceAll(' ','_').toLowerCase())
+                                    window.history.pushState({},'',newUrl)
+                                }}>{items}</a></li>
+                            </ul>
+                        )
+                    })}
+                </div>
             </div>
-        </div>
+                    )
+                }}
+            </ComparisonContext.Consumer>
+            
         )
     }
     else return(
