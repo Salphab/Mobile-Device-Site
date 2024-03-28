@@ -1,5 +1,5 @@
 import ComparisonTheme from "./ComparisonPageTheme";
-import { ComparisonContext } from "../../../Hooks/Context/ComparisonContext";
+import { ComparisonContext,} from "../../../Hooks/Context/ComparisonContext";
 import ComparisonBody from "./ComparisonBody";
 import Network from "../Components/Network";
 import { useEffect, useState } from "react";
@@ -19,12 +19,12 @@ const endPoint3 = `http://localhost:4001/device/${phone3}`;
 
 
 function ComparisonContent(){
-    const [data1, setData1] = useState('');
-    const [data2, setData2] = useState('');
-    const [data3, setData3] = useState('');
+    const [data1, setData1] = useState();
+    const [data2, setData2] = useState();
+    const [data3, setData3] = useState();
     useEffect(()=>{
         document.title = 'Compare Smartphones, Tablets, and other Devices: Comprehensive side-by-side comparison';
-        if (endPoint1) {
+        if (phone1) {
             axios.get(endPoint1)
                 .then(res => {
                     setData1(res.data);
@@ -33,7 +33,7 @@ function ComparisonContent(){
         }
     },[setData1])
     useEffect(()=>{
-        if (endPoint2) {
+        if (phone2) {
             axios.get(endPoint2)
                 .then(res => {
                     setData2(res.data);
@@ -42,7 +42,7 @@ function ComparisonContent(){
         }
     },[setData2])
     useEffect(()=>{
-        if (endPoint3) {
+        if (phone3) {
             axios.get(endPoint3)
                 .then(res => {
                     setData3(res.data);

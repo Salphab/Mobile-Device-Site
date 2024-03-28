@@ -32,8 +32,8 @@ function ComparisonSearch1(props){
                         <input class='relative border-[1px] border-gray-500 h-[100%] w-[100%] ml-[3%] max-w-[95%] rounded pl-[2%] placeholder:font-[sans-serif] placeholder:pl-[0%] focus:outline-none text-sm' type="text" placeholder='Device to compare' onChange={onQueryChange} />
                     </form>
                     <div class='relative mt-[4%] block w-[100%] max-w-[95%] m-auto h-[70%] border-t-[1px] border-gray-400'>
-                        <h2 className='relative w-[100%] max-w-[100%] text-center mt-[3%] text-md font-[monserrat] text-gray-700 font-semibold'>{data1.name}</h2>
-                        <img class='relative m-auto mt-[7%] hover:cursor-pointer' src={data1.img} alt={data1.name}/>
+                        <h2 className='relative w-[100%] max-w-[100%] text-center mt-[3%] text-md font-[monserrat] text-gray-700 font-semibold'>{data1[0].name}</h2>
+                        <img class='relative m-auto mt-[7%] hover:cursor-pointer' src={data1[0].img} alt={data1[0].name}/>
                     </div>
                     <div class='absolute hidden top-[16%] ml-[2%] mt-[1%] w-[100%] max-w-[95%] h-[fit-content] bg-white' ref={suggestionRef}>
                         {value.slice(0,10).map((items)=>{
