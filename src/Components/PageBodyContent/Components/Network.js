@@ -1,28 +1,101 @@
+import React, { useContext, useEffect } from "react";
 import { ComparisonContext } from "../../../Hooks/Context/ComparisonContext";
-import { useContext} from "react";
 
-function Network(){
-    const {data1,data2,data3} = useContext(ComparisonContext);
-    return(
-        <ComparisonContext.Consumer>
-        {()=>{
-            return(
-                <section class='relative block border-[1px] w-[100%] max-w-[100%] h-[fit-content]'>
-                    <div class='relative w-[100%] max-w-[100%] h-[12%] border-[1px] border-red-500'>
-                        <h2 class='relative w-[100%] max-w-[15%] text-center font-[monserrat] text-lg font-bold h-[100%]'>Network</h2>
-                    </div>
-                    <table class='relative flex w-[100%] max-w-[100%] h-[88%]'>
-                        <tr class='relative block w-[100%] max-w-[100%] h-[fit-content] border-[1px] border-red-500'>
-                            <th class='relative text-sm font-semibold font-[monserrat] bg-red-500 w-[100%] text-center max-w-[19%]'>Technology</th>
-                            <td class='relative text-sm font-semibold font-[monserrat] bg-blue-500 w-[100%] max-w-[35.5%]'>Technology</td>
-                            <td class='relative text-sm font-semibold font-[monserrat] bg-black w-[100%] max-w-[35.5%]'>Technology</td>
-                            <td class='relative text-sm font-semibold font-[monserrat] bg-green-500 w-[100%] max-w-[35.5%]'>Technology</td>
-                        </tr>
-                    </table>
-                </section>
-            )
-        }}
-    </ComparisonContext.Consumer> 
-    )
+function Network() {
+    const { data1, data2, data3 } = useContext(ComparisonContext);
+    
+    let DeviceNetwork1 = data1 && data1[0]?.detailSpec[0];
+    let DeviceNetwork2 = data2 && data2[0]?.detailSpec[0];
+    let DeviceNetwork3 = data3 && data3[0]?.detailSpec[0];
+
+    useEffect(()=>{
+        if(data1){
+            for(let i = 0; i < DeviceNetwork1?.specifications?.length; i++) {
+                if(DeviceNetwork1?.specifications[i]?.name?.length === 1 && i > 0) {
+                    DeviceNetwork1.specifications[i - 1].value += ' ' + DeviceNetwork1.specifications[i].value;
+                    DeviceNetwork1.specifications.splice(i, 1);
+                    i--;
+                } else {
+                    console.log('pass');
+                }
+            }        
+        }
+    })
+
+    useEffect(()=>{
+        if(data2){
+            for(let i = 0; i < DeviceNetwork2?.specifications?.length; i++) {
+                if(DeviceNetwork2?.specifications[i]?.name?.length === 1 && i > 0) {
+                    DeviceNetwork2.specifications[i - 1].value += ' ' + DeviceNetwork2.specifications[i].value;
+                    DeviceNetwork2.specifications.splice(i, 1);
+                    i--;
+                } else {
+                    console.log('pass');
+                }
+            }        
+        }
+    })
+
+    useEffect(()=>{
+        if(data3){
+            for(let i = 0; i < DeviceNetwork3?.specifications?.length; i++) {
+                if(DeviceNetwork3?.specifications[i]?.name?.length === 1 && i > 0) {
+                    DeviceNetwork3.specifications[i - 1].value += ' ' + DeviceNetwork3.specifications[i].value;
+                    DeviceNetwork3.specifications.splice(i, 1);
+                    i--;
+                } else {
+                    console.log('pass');
+                }
+            }        
+        }
+    })
+
+    return (
+        <section className='relative block w-[100%] max-w-[100%] h-[fit-content]'>
+            <div className='relative w-[100%] max-w-[100%] h-[12%]'>
+                <h2 className='relative w-[100%] max-w-[15%] pl-[2%] font-[monserrat] text-xl font-bold h-[100%]'>Network</h2>
+            </div>
+            <table className='relative flex w-[100%] max-w-[100%] h-[88%]'>
+                <tbody className='relative w-[100%] max-w-[100%]'>
+                   <tr class='relative flex w-[100%] max-w-[100%]'>
+                        <td class='relative font-[monserrat] bg-red-500 pl-[2%] w-[100%] max-w-[15%]'>Technology</td>
+                        <td class='relative text-justify pl-[2%] pr-[3%] w-[100%] max-w-[28.33%]'>{DeviceNetwork1?.specifications[0]?.value || '-'}</td>
+                        <td class='relative w-[100%] pl-[2%] pr-[3%] bg-green-500 w-[100%] max-w-[28.33%]'>{DeviceNetwork2?.specifications[0]?.value || '-'}</td>
+                        <td class='relative pl-[2%] pr-[3%] w-[100%] max-w-[28.33%]'>{DeviceNetwork3?.specifications[0]?.value || '-'}</td>
+                   </tr>
+                   <tr class='relative flex w-[100%] max-w-[100%]'>
+                        <td class='relative font-[monserrat] pl-[2%] bg-blue-500 w-[100%] max-w-[15%]'>2G bands</td>
+                        <td class='relative text-justify pl-[2%] pr-[3%] w-[100%] max-w-[28.33%]'>{DeviceNetwork1?.specifications[1]?.value || '-'}</td>
+                        <td class='relative w-[100%] pl-[2%] pr-[3%] bg-green-500 w-[100%] max-w-[28.33%]'>{DeviceNetwork2?.specifications[1]?.value || '-'}</td>
+                        <td class='relative pl-[2%] pr-[3%] w-[100%] max-w-[28.33%]'>{DeviceNetwork3?.specifications[1]?.value || '-'}</td>
+                        
+                   </tr>
+                   <tr class='relative flex w-[100%] max-w-[100%]'>
+                        <td class='relative font-[monserrat] pl-[2%] bg-blue-500 w-[100%] max-w-[15%]'>3G bands</td>
+                        <td class='relative text-justify pl-[2%] pr-[3%] w-[100%] max-w-[28.33%]'>{DeviceNetwork1?.specifications[2]?.value || '-'}</td>
+                        <td class='relative w-[100%] pl-[2%] pr-[3%] bg-green-500 w-[100%] max-w-[28.33%]'>{DeviceNetwork2?.specifications[2]?.value || '-'}</td>
+                        <td class='relative pl-[2%] pr-[3%] w-[100%] max-w-[28.33%]'>{DeviceNetwork3?.specifications[2]?.value || '-'}</td>
+                   </tr>
+                   <tr class='relative flex w-[100%] max-w-[100%]'>
+                        <td class='relative font-[monserrat] pl-[2%] bg-blue-500 w-[100%] max-w-[15%]'>4G bands</td>
+                        <td class='relative text-justify pl-[2%] pr-[3%] w-[100%] max-w-[28.33%]'>{DeviceNetwork1?.specifications[3]?.value || '-'}</td>
+                        <td class='relative w-[100%] pl-[2%] pr-[3%] bg-green-500 w-[100%] max-w-[28.33%]'>{DeviceNetwork2?.specifications[3]?.value || '-'}</td>
+                        <td class='relative pl-[2%] pr-[3%] w-[100%] max-w-[28.33%]'>{DeviceNetwork3?.specifications[3]?.value || '-'}</td>
+                   </tr>
+                   <tr class='relative flex w-[100%] max-w-[100%]'>
+                        <td class='relative font-[monserrat] pl-[2%] bg-blue-500 w-[100%] max-w-[15%]'>5G bands</td>
+                        <td class='relative text-justify pl-[2%] pr-[3%] w-[100%] max-w-[28.33%]'>{DeviceNetwork1?.specifications[4]?.value || '-'}</td>
+                        <td class='relative w-[100%] pl-[2%] pr-[3%] bg-green-500 w-[100%] max-w-[28.33%]'>{DeviceNetwork2?.specifications[4]?.value || '-'}</td>
+                        <td class='relative pl-[2%] pr-[3%] w-[100%] max-w-[28.33%]'>{DeviceNetwork3?.specifications[4]?.value || '-'}</td>
+                   </tr>
+                   <tr tr class='relative flex w-[100%] max-w-[100%]'>
+                        <td class='relative font-[monserrat] pl-[2%] bg-blue-500 w-[100%] max-w-[15%]'>speed</td>
+                        <td class='relative pl-[2%] pr-[3%] w-[100%] max-w-[28.33%]'>{DeviceNetwork1?.specifications[DeviceNetwork1?.specifications?.length-1]?.value}</td>
+                   </tr>
+                </tbody>
+            </table>
+        </section>
+    );
 }
+
 export default Network;

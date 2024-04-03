@@ -5,6 +5,7 @@ import './index.css';
 import Main from './Routers/Mainpageroute.js';
 import Categories from './Routers/Categoriesroute.js';
 import AppleDevices from './Routers/Device/DevicePersonaRoute.js';
+import FooterLinks from './Routers/FooterLinks.js';
 import reportWebVitals from './reportWebVitals';
 
 
@@ -14,6 +15,7 @@ root.render(
     <Main />
     <Categories />
     <AppleDevices />
+    <FooterLinks/>
   </BrowserRouter>
 );
 

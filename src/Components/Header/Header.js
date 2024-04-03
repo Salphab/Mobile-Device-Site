@@ -1,6 +1,5 @@
 import React from 'react';
 import { useEffect } from 'react';
-import { Link } from 'react-router-dom';
 
 function Header(){
     useEffect(()=>{
@@ -10,7 +9,7 @@ function Header(){
         <header class='lg:relative mt-[3%] grid grid-cols-12 w-[100%] mb-[3%] grid-row-6 max-w-[90%] m-auto h-[20vh]'>
             <div class='col-start-1 col-end-4 row-start-1 row-end-7'>
                 <div class='relative w-[100%] max-w-[80%] m-auto h-[51%] border-[1px] border-[red]'>
-                    <Link to='/'>Logo Img</Link>
+                    <a to='/'>Logo Img</a>
                 </div>
             </div>
             <div class='col-start-4 col-end-13 row-start-1 row-end-7'>

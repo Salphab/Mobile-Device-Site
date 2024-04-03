@@ -14,7 +14,7 @@ function Footer(){
                     <input class='relative w-[100%] focus:outline-none placeholder:text-sm pl-[3%] h-[100%] max-w-[80%]' type="text" placeholder="ENTER YOUR EMAIL ADDRESS"/>
                     <input class='relative w-[100%] max-w-[20%] h-[100%] bg-red-500 text-white hover:cursor-pointer' type="submit" value='Subscribe'/>
                 </form>
-                <h3 class='relative text-center mt-[2%] text-xs'>By signing up, you consent to the <Link class='relative text-red-500 hover:underline'>privacy policy.</Link></h3>
+                <h3 class='relative text-center mt-[2%] text-xs'>By signing up, you consent to the <a href='/privacy-policy' class='relative text-red-500 hover:underline'>privacy policy.</a></h3>
             </div>
             <div class='relative block w-[100%] bg-[#00172d] max-w-[100%] h-[40%]'>
                 <ul className="relative w-[100%] max-w-[fit-content] ml-[20%] top-[5%] flex">
