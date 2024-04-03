@@ -53,44 +53,46 @@ function Network() {
     return (
         <section className='relative block w-[100%] max-w-[100%] h-[fit-content]'>
             <div className='relative w-[100%] max-w-[100%] h-[12%]'>
-                <h2 className='relative w-[100%] max-w-[15%] pl-[2%] font-[monserrat] text-xl font-bold h-[100%]'>Network</h2>
+                <h2 className='relative w-[100%] max-w-[100%] pl-[2%] font-[ariel] text-xl font-bold h-[100%]'>Network</h2>
             </div>
             <table className='relative flex w-[100%] max-w-[100%] h-[88%]'>
                 <tbody className='relative w-[100%] max-w-[100%]'>
-                   <tr class='relative flex w-[100%] max-w-[100%]'>
-                        <td class='relative font-[monserrat] bg-red-500 pl-[2%] w-[100%] max-w-[15%]'>Technology</td>
-                        <td class='relative text-justify pl-[2%] pr-[3%] w-[100%] max-w-[28.33%]'>{DeviceNetwork1?.specifications[0]?.value || '-'}</td>
-                        <td class='relative w-[100%] pl-[2%] pr-[3%] bg-green-500 w-[100%] max-w-[28.33%]'>{DeviceNetwork2?.specifications[0]?.value || '-'}</td>
-                        <td class='relative pl-[2%] pr-[3%] w-[100%] max-w-[28.33%]'>{DeviceNetwork3?.specifications[0]?.value || '-'}</td>
+                   <tr class='relative flex w-[100%] rounded bg-gray-200 max-w-[100%]'>
+                        <td class='relative font-[monserrat] py-[1%] pl-[2%] w-[100%] max-w-[15%]'>Technology</td>
+                        <td class='relative flex font-[monserrat] py-[1%] text-sm text-justify pl-[2%] pr-[3%] w-[100%] max-w-[28.33%]'>{DeviceNetwork1?.specifications[0]?.value || <span class='relative m-auto'>-</span>}</td>
+                        <td class='relative flex font-[monserrat] py-[1%] w-[100%] pl-[2%] pr-[3%] w-[100%] max-w-[28.33%]'>{DeviceNetwork2?.specifications[0]?.value || <span class='relative m-auto'>-</span>}</td>
+                        <td class='relative flex font-[monserrat] py-[1%] pl-[2%] pr-[3%] w-[100%] max-w-[28.33%]'>{DeviceNetwork3?.specifications[0]?.value || <span class='relative m-auto'>-</span>}</td>
                    </tr>
                    <tr class='relative flex w-[100%] max-w-[100%]'>
-                        <td class='relative font-[monserrat] pl-[2%] bg-blue-500 w-[100%] max-w-[15%]'>2G bands</td>
-                        <td class='relative text-justify pl-[2%] pr-[3%] w-[100%] max-w-[28.33%]'>{DeviceNetwork1?.specifications[1]?.value || '-'}</td>
-                        <td class='relative w-[100%] pl-[2%] pr-[3%] bg-green-500 w-[100%] max-w-[28.33%]'>{DeviceNetwork2?.specifications[1]?.value || '-'}</td>
-                        <td class='relative pl-[2%] pr-[3%] w-[100%] max-w-[28.33%]'>{DeviceNetwork3?.specifications[1]?.value || '-'}</td>
+                        <td class='relative font-[monserrat] py-[1%] pl-[2%] w-[100%] max-w-[15%]'>2G bands</td>
+                        <td class='relative flex font-[monserrat] py-[1%] text-justify pl-[2%] pr-[3%] w-[100%] max-w-[28.33%]'>{DeviceNetwork1?.specifications[1]?.value || <span class='relative m-auto'>-</span>}</td>
+                        <td class='relative flex font-[monserrat] py-[1%] w-[100%] pl-[2%] pr-[3%] w-[100%] max-w-[28.33%]'>{DeviceNetwork2?.specifications[1]?.value || <span class='relative m-auto'>-</span>}</td>
+                        <td class='relative flex font-[monserrat] py-[1%] pl-[2%] pr-[3%] w-[100%] max-w-[28.33%]'>{DeviceNetwork3?.specifications[1]?.value || <span class='relative m-auto'>-</span>}</td>
                         
                    </tr>
-                   <tr class='relative flex w-[100%] max-w-[100%]'>
-                        <td class='relative font-[monserrat] pl-[2%] bg-blue-500 w-[100%] max-w-[15%]'>3G bands</td>
-                        <td class='relative text-justify pl-[2%] pr-[3%] w-[100%] max-w-[28.33%]'>{DeviceNetwork1?.specifications[2]?.value || '-'}</td>
-                        <td class='relative w-[100%] pl-[2%] pr-[3%] bg-green-500 w-[100%] max-w-[28.33%]'>{DeviceNetwork2?.specifications[2]?.value || '-'}</td>
-                        <td class='relative pl-[2%] pr-[3%] w-[100%] max-w-[28.33%]'>{DeviceNetwork3?.specifications[2]?.value || '-'}</td>
+                   <tr class='relative flex bg-gray-200 rounded w-[100%] max-w-[100%]'>
+                        <td class='relative font-[monserrat] py-[1%] pl-[2%] w-[100%] max-w-[15%]'>3G bands</td>
+                        <td class='relative flex font-[monserrat] py-[1%] text-justify pl-[2%] pr-[3%] w-[100%] max-w-[28.33%]'>{DeviceNetwork1?.specifications[2]?.value || <span class='relative m-auto'>-</span>}</td>
+                        <td class='relative flex font-[monserrat] py-[1%] w-[100%] pl-[2%] pr-[3%] w-[100%] max-w-[28.33%]'>{DeviceNetwork2?.specifications[2]?.value || <span class='relative m-auto'>-</span>}</td>
+                        <td class='relative flex font-[monserrat] py-[1%] pl-[2%] pr-[3%] w-[100%] max-w-[28.33%]'>{DeviceNetwork3?.specifications[2]?.value || <span class='relative m-auto'>-</span>}</td>
                    </tr>
                    <tr class='relative flex w-[100%] max-w-[100%]'>
-                        <td class='relative font-[monserrat] pl-[2%] bg-blue-500 w-[100%] max-w-[15%]'>4G bands</td>
-                        <td class='relative text-justify pl-[2%] pr-[3%] w-[100%] max-w-[28.33%]'>{DeviceNetwork1?.specifications[3]?.value || '-'}</td>
-                        <td class='relative w-[100%] pl-[2%] pr-[3%] bg-green-500 w-[100%] max-w-[28.33%]'>{DeviceNetwork2?.specifications[3]?.value || '-'}</td>
-                        <td class='relative pl-[2%] pr-[3%] w-[100%] max-w-[28.33%]'>{DeviceNetwork3?.specifications[3]?.value || '-'}</td>
+                        <td class='relative font-[monserrat] py-[1%] pl-[2%] w-[100%] max-w-[15%]'>4G bands</td>
+                        <td class='relative flex font-[monserrat] py-[1%] text-justify pl-[2%] pr-[3%] w-[100%] max-w-[28.33%]'>{DeviceNetwork1?.specifications[3]?.value || <span class='relative m-auto'>-</span>}</td>
+                        <td class='relative flex font-[monserrat] py-[1%] w-[100%] pl-[2%] pr-[3%] w-[100%] max-w-[28.33%]'>{DeviceNetwork2?.specifications[3]?.value || <span class='relative m-auto'>-</span>}</td>
+                        <td class='relative flex font-[monserrat] py-[1%] pl-[2%] pr-[3%] w-[100%] max-w-[28.33%]'>{DeviceNetwork3?.specifications[3]?.value || <span class='relative m-auto'>-</span>}</td>
                    </tr>
-                   <tr class='relative flex w-[100%] max-w-[100%]'>
-                        <td class='relative font-[monserrat] pl-[2%] bg-blue-500 w-[100%] max-w-[15%]'>5G bands</td>
-                        <td class='relative text-justify pl-[2%] pr-[3%] w-[100%] max-w-[28.33%]'>{DeviceNetwork1?.specifications[4]?.value || '-'}</td>
-                        <td class='relative w-[100%] pl-[2%] pr-[3%] bg-green-500 w-[100%] max-w-[28.33%]'>{DeviceNetwork2?.specifications[4]?.value || '-'}</td>
-                        <td class='relative pl-[2%] pr-[3%] w-[100%] max-w-[28.33%]'>{DeviceNetwork3?.specifications[4]?.value || '-'}</td>
+                   <tr class='relative flex bg-gray-200 rounded w-[100%] max-w-[100%]'>
+                        <td class='relative font-[monserrat] pl-[2%] py-[1%] w-[100%] max-w-[15%]'>5G bands</td>
+                        <td class='relative flex font-[monserrat] py-[1%] text-justify pl-[2%] pr-[3%] w-[100%] max-w-[28.33%]'>{DeviceNetwork1?.specifications[4]?.value || <span class='relative m-auto'>-</span>}</td>
+                        <td class='relative flex font-[monserrat] py-[1%] w-[100%] pl-[2%] pr-[3%] w-[100%] max-w-[28.33%]'>{DeviceNetwork2?.specifications[4]?.value || <span class='relative m-auto'>-</span>}</td>
+                        <td class='relative flex font-[monserrat] py-[1%] pl-[2%] pr-[3%] w-[100%] max-w-[28.33%]'>{DeviceNetwork3?.specifications[4]?.value || <span class='relative m-auto'>-</span>}</td>
                    </tr>
                    <tr tr class='relative flex w-[100%] max-w-[100%]'>
-                        <td class='relative font-[monserrat] pl-[2%] bg-blue-500 w-[100%] max-w-[15%]'>speed</td>
-                        <td class='relative pl-[2%] pr-[3%] w-[100%] max-w-[28.33%]'>{DeviceNetwork1?.specifications[DeviceNetwork1?.specifications?.length-1]?.value}</td>
+                        <td class='relative font-[monserrat] pl-[2%] py-[1%] w-[100%] max-w-[15%]'>speed</td>
+                        <td class='relative flex font-[monserrat] py-[1%] pl-[2%] pr-[3%] w-[100%] max-w-[28.33%]'>{DeviceNetwork1?.specifications[DeviceNetwork1?.specifications?.length-1]?.value || <span class='relative m-auto'>-</span>}</td>
+                        <td class='relative flex font-[monserrat] py-[1%] pl-[2%] pr-[3%] w-[100%] max-w-[28.33%]'>{DeviceNetwork1?.specifications[DeviceNetwork2?.specifications?.length-1]?.value || <span class='relative m-auto'>-</span>}</td>
+                        <td class='relative flex font-[monserrat] py-[1%] pl-[2%] pr-[3%] w-[100%] max-w-[28.33%]'>{DeviceNetwork1?.specifications[DeviceNetwork3?.specifications?.length-1]?.value || <span class='relative m-auto'>-</span>}</td>
                    </tr>
                 </tbody>
             </table>
