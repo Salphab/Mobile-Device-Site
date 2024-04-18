@@ -2,6 +2,19 @@ import ComparisonTheme from "./ComparisonPageTheme";
 import { ComparisonContext,} from "../../../Hooks/Context/ComparisonContext";
 import ComparisonBody from "./ComparisonBody";
 import Network from "../Components/Network";
+import Display from "../Components/Display";
+import StretchAdBar from '../../Ads/StretchAdBar';
+import Memory from "../Components/Memory";
+import OS from "../Components/OS";
+import Body from "../Components/Body";
+import RearCamera from "../Components/RearCamera";
+import FrontCamera from "../Components/FrontCamera";
+import Battery from "../Components/Battery";
+import Sound from "../Components/Sound";
+import Connections from "../Components/Connections";
+import Feature from "../Components/Feature";
+import Skin from "../Components/Misc";
+import Disclaimer from '../../Disclaimer/Disclaimer'
 import { useEffect, useState } from "react";
 import axios from "axios";
 
@@ -28,6 +41,7 @@ function ComparisonContent(){
             axios.get(endPoint1)
                 .then(res => {
                     setData1(res.data);
+                    console.log(res.data)
                 })
                 .catch(error => console.log(error));
         }
@@ -56,6 +70,19 @@ function ComparisonContent(){
                 <ComparisonTheme />
                 <ComparisonBody />
                 <Network />
+                <StretchAdBar/>
+                <Display />
+                <Body />
+                <OS />
+                <Memory />
+                <RearCamera />
+                <FrontCamera />
+                <Battery />
+                <Sound />
+                <Connections />
+                <Feature />
+                <Skin />
+                <Disclaimer />
             </section>
         </ComparisonContext.Provider>
     )

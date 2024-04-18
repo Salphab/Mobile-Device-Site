@@ -12,12 +12,12 @@ function HomeContent(){
             <CardsX6 title='Newly Released'/>
             <StretchAdBar/>
             <Cardsx12 title='Trending Devices'/>
-            <CardsX6 title='Your Budget Below $100'/>
+            <CardsX6 title='Best Around $100'/>
             <Tile title='Latest Stories'/>
-            <CardsX6 title='Your Budget Below $250'/>
+            <CardsX6 title='Best Around $300'/>
             <TileX6 title='Recent Posts'/>
             <StretchAdBar/>
-            <CardsX6 title='Your Budget Above $800'/>
+            <CardsX6 title='Best Above $800'/>
             <TileX4 title='Recommended Post'/>
         </section>
     )

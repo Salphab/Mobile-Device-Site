@@ -24,7 +24,7 @@ function TileX6(props){
                 </a>
             </div>
             <div class='relative flex mt-[2%] w-[100%] max-w-[100%] h-[5%]'>
-                <a class='relative text-lg w-[100%] max-w-[fit-content] px-[5%] py-[1%] h-[70%] text-center rounded bg-[#00264d] text-white m-auto font-semibold' to=''>More Posts</a>
+                <a href="" class='relative text-lg w-[100%] max-w-[fit-content] px-[5%] py-[1%] h-[70%] text-center rounded bg-[#00264d] text-white m-auto font-semibold' to=''>More Posts</a>
             </div>
         </section>
     )
