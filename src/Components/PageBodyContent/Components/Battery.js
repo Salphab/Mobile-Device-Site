@@ -47,7 +47,7 @@ function Battery() {
     return (
         <section className='relative block w-[100%] max-w-[100%] h-[fit-content]'>
             <div className='relative w-[100%] max-w-[100%] h-[12%]'>
-                <h2 className='relative w-[100%] max-w-[100%] pl-[2%] py-[2%] font-[ariel] text-xl font-bold h-[100%]'>Battery</h2>
+                <h2 className='relative w-[100%] max-w-[100%] pl-[2%] py-[2%] font-[ariel] text-lg font-bold h-[100%]'>Battery</h2>
             </div>
             <table className='relative flex w-[100%] max-w-[100%] h-[88%]'>
                 <tbody className='relative w-[100%] max-w-[100%]'>

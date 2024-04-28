@@ -9,10 +9,10 @@ function Themebanner(props){
             <div class='absolute grid grid-cols-12 grid-rows-6 z-50 bottom-0 w-[100%] h-[10vh] max-w-[100%]'>
                 <div class='relative flex col-start-1 col-end-13 row-start-1 row-end-7 h-[100%] bg-[rgba(0,0,0,0.6)]'>
                     <h2 class='relative text-white font-[monserrat] w-[100%] max-w-[fit-content] text-[1.8rem] font-bold ml-4 m-auto'>{props.BannerName}</h2>
-                    <form class='relative flex float-right w-[100%] m-auto max-w-[50%] h-[100%]'>
-                        <label class='relative  font-bold font-[monserrat] m-auto mx-3 text-white' htmlFor="search">Filter :</label>
-                        <input class='relative rounded m-auto w-[100%] max-w-[60%] border-[2px] border-gray-300 focus:border-black placeholder:text-[0.9rem] pl-[1%] placeholder:font-[monserrat] placeholder:text-black placeholder:px-[1%] placeholder:left-[2%] focus:outline-none mx-1 h-[60%] ' type="text" name="search" placeholder='Search'/>
-                        <input class='relative bg-gray-500 rounded text-white font-semibold m-auto mx-0 w-[100%] max-w-[15%] h-[50%]' type='submit' />
+                    <form class='relative flex float-right w-[100%] max-w-[50%] h-[100%]'>
+                        <label class='relative italic  font-bold font-[monserrat] m-auto mx-3 text-white' htmlFor="search">Filter :</label>
+                        <input class='relative rounded m-auto w-[100%] max-w-[50%] focus:border-black placeholder:text-[0.9rem] pl-[1%] placeholder:font-[monserrat] placeholder:text-black placeholder:px-[1%] placeholder:left-[2%] focus:outline-none mx-1 h-[50%] ' type="text" name="search" placeholder='Search by devices name'/>
+                        <input class='relative bg-blue-900 rounded text-white font-semibold text-sm font-[monserrat] m-auto mx-0 w-[100%] max-w-[15%] h-[50%]' type='submit' />
                     </form>
                 </div>  
             </div>

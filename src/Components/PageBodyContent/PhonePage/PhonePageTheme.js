@@ -8,7 +8,7 @@ function PhoneTheme(){
         <PhoneContext.Consumer>
             {()=>{
                 return(
-                    <div class='relative w-[100%] max-w-[100%] h-[40vh] mb-[2%]'>
+                    <div class='relative w-[100%] max-w-[100%] h-[50vh] mb-[2%]'>
                         <img class='relative w-[100%] object-cover max-w-[100%] h-[100%]' src={imgUrl} alt={imgAlt} />
                         <Themebanner BannerName='Phones / Tablets' filter='true' />
                     </div>
