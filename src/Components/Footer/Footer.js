@@ -18,13 +18,14 @@ function Footer(){
             </div>
             <div class='relative block w-[100%] bg-[#00172d] max-w-[100%] h-[40%]'>
                 <ul className="relative w-[100%] max-w-[fit-content] ml-[20%] top-[5%] flex">
-                    <li class=' text-sm hover:underline text-white border-white font-light w-[100%] max-w-[fit-content] h-[fit-content] border-r-[1px] px-[3%]'><Link>Home</Link></li>
-                    <li class=' text-sm hover:underline text-white border-white font-light w-[100%] max-w-[fit-content] h-[fit-content] border-r-[1px] px-[3%]'><Link>Phone</Link></li>
-                    <li class=' text-sm hover:underline text-white border-white font-light w-[100%] max-w-[fit-content] h-[fit-content] border-r-[1px] px-[3%]'><Link>Review</Link></li>
-                    <li class=' text-sm hover:underline text-white border-white font-light w-[100%] max-w-[fit-content] h-[fit-content] border-r-[1px] px-[3%]'><Link>Events</Link></li>
-                    <li class=' text-sm hover:underline text-white border-white font-light w-[100%] max-w-[fit-content] h-[fit-content] border-r-[1px] px-[3%]'><Link>Videos</Link></li>
-                    <li class=' text-sm hover:underline text-white border-white font-light w-[100%] max-w-[fit-content] h-[fit-content] border-r-[1px] px-[3%]'><Link>Compare</Link></li>
-                    <li class=' text-sm hover:underline text-white border-white font-light w-[100%] max-w-[fit-content] h-[fit-content] border-r-[1px] px-[3%]'><Link>News</Link></li>
+                    <li class=' text-sm hover:underline text-white border-white font-light w-[100%] max-w-[fit-content] h-[fit-content] border-r-[1px] px-[3%]'><Link to='/'>Home</Link></li>
+                    <li class=' text-sm hover:underline text-white border-white font-light w-[100%] max-w-[fit-content] h-[fit-content] border-r-[1px] px-[3%]'><Link to='/about'>About</Link></li>
+                    <li class=' text-sm hover:underline text-white border-white font-light w-[100%] max-w-[fit-content] h-[fit-content] border-r-[1px] px-[3%]'><Link to='/review'>Review</Link></li>
+                    <li class=' text-sm hover:underline text-white border-white font-light w-[100%] max-w-[fit-content] h-[fit-content] border-r-[1px] px-[3%]'><Link to='/compare'>Compare</Link></li>
+                    <li class=' text-sm hover:underline text-white border-white font-light w-[100%] max-w-[fit-content] h-[fit-content] border-r-[1px] px-[3%]'><Link to='/videos'>Videos</Link></li>
+                    <li class=' text-sm hover:underline text-white border-white font-light w-[100%] max-w-[fit-content] h-[fit-content] border-r-[1px] px-[3%]'><Link to='/deals'>Deals</Link></li>
+                    <li class=' text-sm hover:underline text-white border-white font-light w-[100%] max-w-[fit-content] h-[fit-content] border-r-[1px] px-[3%]'><Link to='/news'>News</Link></li>
+                    <li class=' text-sm hover:underline text-white border-white font-light w-[100%] max-w-[fit-content] h-[fit-content] border-r-[1px] px-[3%]'><Link to='/computing'>Computing</Link></li>
                     <li class=' text-sm hover:underline text-white border-white font-light w-[100%] max-w-[fit-content] h-[fit-content] border-r-[1px] px-[3%]'><Link>FAQ</Link></li>
                     <li class=' text-sm hover:underline text-white border-white font-light w-[100%] max-w-[fit-content] h-[fit-content] border-r-[1px] px-[3%]'><Link>Site Map</Link></li>
                     <li class=' text-sm hover:underline text-white border-white font-light w-[100%] max-w-[fit-content] h-[fit-content] border-r-[1px] px-[3%]'><Link>Advertise with us</Link></li>                    

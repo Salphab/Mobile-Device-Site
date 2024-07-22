@@ -11,13 +11,13 @@ function HomeContent(){
             <TopCoursel/>
             <CardsX6 title='Newly Released'/>
             <StretchAdBar/>
-            <Cardsx12 title='Trending Devices'/>
-            <CardsX6 title='Best Around $100'/>
+            <Cardsx12 title='Popular Comparison'/>
+            <CardsX6 title='Top Flagship Devices'/>
             <Tile title='Latest Stories'/>
-            <CardsX6 title='Best Around $300'/>
+            <CardsX6 title='Top Mid-range Devices'/>
             <TileX6 title='Recent Posts'/>
             <StretchAdBar/>
-            <CardsX6 title='Best Above $800'/>
+            <CardsX6 title='Top Budget Devices'/>
             <TileX4 title='Recommended Post'/>
         </section>
     )

@@ -20,7 +20,6 @@ function ComparisonSearch1(props){
         }
         setValue(AllDevices.filter((data)=>data.includes(searchTerm)))
     }
-
     useEffect(()=>{
         console.log(data1)
     })
@@ -40,7 +39,7 @@ function ComparisonSearch1(props){
                         <img class='relative m-auto mt-[7%] hover:cursor-pointer' src={data1[0].img} alt={data1[0].name}/>
                     </div>
                     <div class='absolute hidden top-[16%] ml-[2%] mt-[1%] w-[100%] max-w-[95%] h-[fit-content] bg-white' ref={suggestionRef}>
-                        {value.slice(0,10).map((items)=>{
+                        {value.length < 1 ?(<p class='relative font-[monserrat] pt-[3%] h-[7vh] text-center'>No search result is found</p>) : value.slice(0,10).map((items)=>{
                             return(
                                 <ul> 
                                     <li class='relative p-[1%] hover:text-blue-600 text-[.8rem] font-semibold'><a href='' onClick={()=>{
@@ -68,13 +67,13 @@ function ComparisonSearch1(props){
                 <SearchIcon className='relative text-gray-500 text-[7rem] m-auto text-gray-400'/>
             </div>
             <div class='absolute hidden top-[16%] ml-[2.5%] mt-[1%] w-[100%] max-w-[95%] h-[fit-content] bg-white' ref={suggestionRef}>
-                {value.slice(0,10).map((items)=>{
+                {value.length < 1 ?(<p class='relative font-[monserrat] pt-[3%] h-[7vh] text-center'>No search result is found</p>) : value.slice(0,10).map((items)=>{
                     return(
                         <ul>
                             <li class='relative p-[1%] hover:text-blue-600 text-[.8rem] font-semibold'><a href={window.location.href + '?phone1=' + items.replaceAll(' ','_').toLowerCase()}>{items}</a></li>
                         </ul>
                     )
-                })}
+                })} 
             </div>
         </div>
     )

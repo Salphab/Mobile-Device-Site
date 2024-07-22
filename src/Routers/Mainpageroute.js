@@ -1,12 +1,12 @@
 import {Routes, Route} from 'react-router-dom';
 import HomePage from '../Pages/HomePage';
 import VideoPage from '../Pages/NavPages/HomeNavigationPages/VideoPage';
+import DealPage from '../Pages/NavPages/HomeNavigationPages/DealsPage';
 import AboutPage from '../Pages/NavPages/HomeNavigationPages/AboutPage';
-import PhonePage from '../Pages/NavPages/HomeNavigationPages/PhonePage';
 import ReviewPage from '../Pages/NavPages/HomeNavigationPages/ReviewPage';
 import NewsPage from '../Pages/NavPages/HomeNavigationPages/NewsPage';
-import EventPage from '../Pages/NavPages/HomeNavigationPages/EventPage';
 import ComparisonPage from '../Pages/NavPages/HomeNavigationPages/ComparisonPage';
+import ComputingPage from '../Pages/NavPages/HomeNavigationPages/ComputingPage';
 function Main(){
     return(
     <Routes>
@@ -16,7 +16,7 @@ function Main(){
         <Route  path="/about" element={<AboutPage/>}>
             
         </Route>
-        <Route  path="/phones" element={<PhonePage/>}>
+        <Route  path="/deals" element={<DealPage/>}>
             
         </Route>
         <Route  path="/videos" element={<VideoPage/>}>
@@ -28,10 +28,10 @@ function Main(){
         <Route  path="/news" element={<NewsPage/>}>
             
         </Route>
-        <Route  path="/events" element={<EventPage/>}>
+        <Route  path="/compare" element={<ComparisonPage/>}>
             
         </Route>
-        <Route  path="/compare" element={<ComparisonPage/>}>
+        <Route  path="/computing" element={<ComputingPage/>}>
             
         </Route>
    </Routes>

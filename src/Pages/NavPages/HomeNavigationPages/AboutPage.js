@@ -1,8 +1,13 @@
 import React from 'react';
+import {useEffect} from 'react'
 import Header from "../../../Components/Header/Header";
 import HomeSidebar from '../../../Components/Sidebar/HomeSidebar';
+import Footer from '../../../Components/Footer/Footer';
 
 function AboutPage(){
+    useEffect(()=>{
+        window.scrollTo(0,0)
+    })
     return(
         <React.Fragment>
             <Header />
@@ -10,6 +15,7 @@ function AboutPage(){
                 <HomeSidebar/>
                 
             </section>
+            <Footer />
         </React.Fragment>
     )
 }

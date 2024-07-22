@@ -1,9 +1,14 @@
 import React from 'react';
+import {useEffect} from 'react';
 import Header from "../../../Components/Header/Header";
 import HomeSidebar from '../../../Components/Sidebar/HomeSidebar';
 import PhonePageContent from '../../../Components/PageBodyContent/PhonePage/PhonePageContent';
+import Footer from '../../../Components/Footer/Footer';
 
-function PhonePage(){
+function DealsPage(){
+    useEffect(()=>{
+        window.scrollTo(0,0)
+    })
     return(
         <React.Fragment>
             <Header />
@@ -11,7 +16,8 @@ function PhonePage(){
                 <HomeSidebar/>
                 <PhonePageContent />
             </section>
+            <Footer />
         </React.Fragment>
     )
 }
-export default PhonePage;
+export default DealsPage;

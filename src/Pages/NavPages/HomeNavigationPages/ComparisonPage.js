@@ -1,10 +1,14 @@
 import React from 'react';
+import {useEffect} from 'react';
 import Header from "../../../Components/Header/Header";
 import HomeSidebar from '../../../Components/Sidebar/HomeSidebar';
 import ComparisonContent from '../../../Components/PageBodyContent/Comparison/ComparisonContent';
 import Footer from '../../../Components/Footer/Footer';
 
 function ComparisonPage(){
+    useEffect(()=>{
+        window.scrollTo(0,0)
+    })
     return(
         <React.Fragment>
             <Header />
