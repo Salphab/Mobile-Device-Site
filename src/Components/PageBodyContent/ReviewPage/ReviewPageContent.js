@@ -1,5 +1,6 @@
 import ReviewTheme from "./ReviewPageTheme";
 import { ReviewContext } from "../../../Hooks/Context/ReviewContext";
+import GeneralReviewList from "./GeneralReviewList";
 const imgUrl = require('../../../Assets/Img/Review_themes.png');
 const imgAlt = 'page theme image';
 function ReviewContent(){
@@ -7,6 +8,7 @@ function ReviewContent(){
         <ReviewContext.Provider value={{imgUrl, imgAlt}}>
             <section class='relative block col-start-4 col-end-13 h-[fit-content]'>
                 <ReviewTheme />
+                <GeneralReviewList />
             </section>
         </ReviewContext.Provider>
     )
