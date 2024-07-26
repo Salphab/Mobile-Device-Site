@@ -2,7 +2,7 @@
 import PhoneIphoneIcon from '@mui/icons-material/PhoneIphone';
 function PhoneCategories(){
     return(
-        <section class='relative bg-gray-100 block w-[100%] max-w-[100%] mb-[6%] h-[65vh]'>
+        <section class='relative bg-white block w-[100%] max-w-[100%] mb-[6%] h-[65vh]'>
                 <div class='relative bg-black w-[100%] mb-[2%] max-w-[100%] h-[12%]'>
                     <div class='relative h-[100%] flex m-auto w-[100%] max-w-[50%]'>
                         <PhoneIphoneIcon className="relative text-white text-xl m-auto" />

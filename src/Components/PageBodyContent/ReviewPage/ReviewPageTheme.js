@@ -9,7 +9,7 @@ function ReviewTheme(){
         <ReviewContext.Consumer>
             {()=>{
                 return(
-                    <div class='relative w-[100%] max-w-[100%] h-[50vh] mb-[2%]'>
+                    <div class='relative w-[100%] max-w-[100%] h-[50vh] mb-[7%]'>
                         <img class='relative w-[100%] object-cover max-w-[100%] h-[100%]' src={imgUrl} alt={imgAlt} />
                         <Themebanner BannerName='Phone Review' filter='true'/>
                         <PopularBrands />

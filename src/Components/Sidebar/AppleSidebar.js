@@ -7,7 +7,6 @@ function AppleSidebar(){
         <nav class='relative block col-start-1 col-end-4 h-[fit-content]'>
             <PhoneCategories/>
             <SideAd/>
-            
         </nav>
     )
 }

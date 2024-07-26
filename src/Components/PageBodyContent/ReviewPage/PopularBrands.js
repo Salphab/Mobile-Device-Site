@@ -1,7 +1,7 @@
 function PopularBrands(){
     return(
-        <div class='relative mt-[1%] border-b-[1px] border-gray-300 flex w-[100%] max-w-[100%] h-[7vh]'>
-            <h3 class='relative font-[monserrat] font-semibold  mt-[1%] ml-[3%]'>Popular collections : </h3>
+        <div class='relative bg-white my-[1%] rounded border-b-[3px] border-gray-300 flex w-[100%] max-w-[100%] h-[7vh]'>
+            <h3 class='relative font-[monserrat] font-semibold  mt-[1%] ml-[3%]'>Popular reviews : </h3>
             <ul class='relative flex w-[100%] max-w-[75%]'>
                 <li className="relative hover:bg-gray-600 font-[monserrat] bg-black text-sm text-white h-[fit-content] px-[1.5%] py-[.5%] w-[100%] max-w-[fit-content] ml-[1%] mt-[1.3%] rounded-full"><a href="">Apple</a></li>
                 <li className="relative hover:bg-gray-600 font-[monserrat] bg-black text-sm text-white h-[fit-content] px-[1.5%] py-[.5%] w-[100%] max-w-[fit-content] ml-[1%] mt-[1.3%] rounded-full"><a href="">Samsung</a></li>

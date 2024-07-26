@@ -54,7 +54,7 @@ function ComparisonSearch3(props){
         )
     }
     else return(
-        <div class='relative block w-[100%] border-l-[1.5px] max-w-[33.34%] h-[95%] mt-[1%] border-r-[1.5px] border-gray-200'>
+        <div class='relative block w-[100%] border-l-[1.5px] max-w-[33.34%] h-[95%] mt-[1%] border-r-[1.5px] border-gray-300'>
             <form class='relative inline-block w-[100%] mb-[3%] h-[8%] mt-[2%] max-w-[100%]'>
                 <label htmlFor='Devices' class='relative text-xs font-semibold pl-[4%]'>Search for your device</label>
                 <input class='relative border-[1px] border-gray-500 h-[100%] w-[100%] ml-[3%] max-w-[95%] rounded pl-[2%] placeholder:font-[sans-serif] placeholder:pl-[0%] focus:outline-none text-sm' type="text" placeholder='Device to compare' onChange={onQueryChange} />

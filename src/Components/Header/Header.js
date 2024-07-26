@@ -9,7 +9,7 @@ function Header(){
     },[])
     return(
         <header class='lg:relative block w-[100%] mb-[1%] max-w-[90%] m-auto h-[20vh]'>
-            <div class='relative flex rounded-t bg-gradient-to-b from-black from-70% via-[#000042] to-[#000035] w-[100%] max-w-[100%] h-[65%]'>
+            <div class='relative flex rounded-t bg-black w-[100%] max-w-[100%] h-[65%]'>
                 <div class='relative w-[100%] ml-[2%] mr-[2%] max-w-[20%] h-[100%] border-[1px] border-[red]'>
                     <a to='/'>Logo Img</a>
                 </div>

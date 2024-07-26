@@ -7,7 +7,7 @@ import AllDevices from '../../../Assets/AllDevices';
 function ComparisonBody(){
     const DevicesName = AllDevices;
     return(
-        <section class='relative  block w-[100%] max-w-[100%] h-[fit-content] mt-[2%]'>
+        <section class='relative block w-[100%] max-w-[100%] h-[fit-content] mt-[2%]'>
             <div class='relative w-[100%] h-[60vh] max-w-[100%]'>
                 <div class='relative flex w-[100%] max-w-[85%] float-right h-[100%]'>
                     <ComparisonSearch1 Devices={DevicesName} />
