@@ -2,18 +2,18 @@
 function TileX4(props){
     return(
         <section class='relative block w-[100%] mt-[4%] max-w-[100%] h-[fit-content]'>
-            <h1 class='relative text-[1.5rem] mb-[3%] font-semibold font-[monserrat]'>{props.title}</h1>
+            <h1 class='relative text-[1.5rem] ml-[1%] mb-[3%] font-semibold font-[monserrat]'>{props.title}</h1>
             <div class='relative grid grid-cols-12 gap-x-[2%] gap-y-[2%] grid-rows-6 h-[60vh]'>
-                <a class='relative rounded col-start-1 col-end-7 row-start-1 row-end-4 border-[1px]'>
+                <a class='relative rounded bg-white col-start-1 col-end-7 row-start-1 row-end-4 border-[1px]'>
 
                 </a>
-                <a class='relative rounded col-start-7 col-end-13 row-start-1 row-end-4 border-[1px]'>
+                <a class='relative rounded bg-white col-start-7 col-end-13 row-start-1 row-end-4 border-[1px]'>
 
                 </a>
-                <a class='relative rounded col-start-1 col-end-7 row-start-4 row-end-7 border-[1px]'>
+                <a class='relative rounded bg-white col-start-1 col-end-7 row-start-4 row-end-7 border-[1px]'>
 
                 </a>
-                <a class='relative rounded col-start-7 col-end-13 row-start-4 row-end-7 border-[1px]'>
+                <a class='relative rounded bg-white col-start-7 col-end-13 row-start-4 row-end-7 border-[1px]'>
 
                 </a>
             </div>

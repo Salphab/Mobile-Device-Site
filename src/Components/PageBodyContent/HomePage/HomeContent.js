@@ -9,7 +9,7 @@ function HomeContent(){
     return(
         <section class='relative block col-start-4 col-end-13 h-[fit-content]'>
             <TopCoursel/>
-            <CardsX6 title='Newly Released'/>
+            <CardsX6 title='Recently Released'/>
             <StretchAdBar/>
             <Cardsx12 title='Popular Comparison'/>
             <CardsX6 title='Top Flagship Devices'/>

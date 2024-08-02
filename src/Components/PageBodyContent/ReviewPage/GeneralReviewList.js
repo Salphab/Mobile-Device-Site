@@ -1,36 +1,39 @@
 import {useState, useEffect} from 'react';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
-
+import { ReviewContext } from "../../../Hooks/Context/ReviewContext";
+import { useContext } from "react";
 function GeneralReviewList(){
+    const {url} = useContext(ReviewContext);
     const [PhoneReview, setPhoneReview] = useState([]);
     const [isLoading, SetIsLoading] = useState(true);
     useEffect(()=>{
-        axios.get('http://localhost:1337/api/reviews?populate=*')
+        axios.get(url)
         .then((res)=>{
             setPhoneReview(res.data);
             SetIsLoading(false);
-            console.log(PhoneReview.data[0])
         },[])
         .catch(error=>{console.log(error)})
     })
-    if(isLoading){
+    if((!isLoading && PhoneReview.data.length > 1) || (!isLoading && PhoneReview.data.length === 1)){
         return(
-            <section class='relative w-[100%] max-w-[100%] h-[100vh] bg-black'>
-                Nothing is seen here
-            </section>
-        )
-    }
-    else{
-        return(
-            <section class='relative flex w-[100%] max-w-[100%] h-[fit-content] border-[1px] border-[solid]'>
-                <Link to='' class='relative hover:bg-gray-100 block rounded bg-white px-[1%] block w-[100%] max-w-[33%] h-[50vh] border-[1px]'>
-                    <img class='relative rounded my-[2%]' src={'http://localhost:1337'+PhoneReview.data[0].attributes.exhibition.data.attributes.formats.small.url} alt={PhoneReview.data[0].attributes.exhibition.data.attributes.alternativeText}/>
-                    <h2 class='relative w-[100%] text-lg mt-[5%] hover:underline leading-5 max-w-[95%] font-bold font-[monserrat] text-justify'>{PhoneReview.data[0].attributes.meta.title}</h2>
-                    <h2 class='mt-[5%]'><span class='font-[monserrat] text-sm font-semibold text-gray-500'>Publish on:</span> <span class='relative text-sm font-[monserrat]'>{PhoneReview.data[0].attributes.meta.Publish_date}</span></h2>
-                </Link>
+            <section class='relative grid gap-2 grid-cols-3 w-[100%] max-w-[100%] h-[fit-content] border-[1px] border-[solid]'>
+                {PhoneReview.data.map((data)=>{
+                    return(
+                        <Link to='' class='relative shadow-xl shadow-gray-400 hover:bg-[#E6F3FF] block rounded bg-white block h-[50vh]'>
+                            <img loading="lazy" class='relative rounded-t mb-[2%]' src={'http://localhost:1337'+data.attributes.exhibition.data.attributes.formats.small.url} alt={data.attributes.exhibition.data.attributes.alternativeText}/>
+                            <h2 class='relative w-[100%] px-[2%] text-md mt-[5%] leading-5 max-w-[95%] font-bold font-[monserrat] text-justify'>{data.attributes.meta.title}</h2>
+                            <h2 class='absolute ml-[2%] bottom-[6%]'><span class='font-[monserrat] text-sm font-semibold text-gray-500'>Published on:</span> <span class='relative text-sm font-[monserrat]'>{data.attributes.meta.Publish_date}</span></h2>
+                        </Link>
+                    )
+                })}
             </section>
         )
     } 
+    return(
+        <section class='relative w-[100%] max-w-[100%] h-[100vh]'>
+            Nothing is seen here
+        </section>
+    )
     }
 export default GeneralReviewList; 
