@@ -5,7 +5,7 @@ function MobileComparison(){
             <header class='relative bg-black text-white rounded flex w-[100%] mb-[2%] max-w-[100%] h-[8%]'>
                 <h1 class='relative m-auto font-semibold'>Top Mobile Comparison</h1>
             </header>
-            <div class='relative w-[100%] max-w-[100%] h-[90%] bg-white'>
+            <div class='relative w-[100%] max-w-[100%] h-[90%] bg-slate-50'>
 
             </div>
         </section>

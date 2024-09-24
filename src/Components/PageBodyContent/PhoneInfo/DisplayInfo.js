@@ -5,7 +5,7 @@ function DisplayInfo(){
     const info = Context.detailSpec[3].specifications;
     
     return(
-        <div class='relative block mb-[1%] w-[100%] max-w-[100%] h-[fit-content]'>
+        <div class='relative block bg-slate-50 mb-[1%] w-[100%] max-w-[100%] h-[fit-content]'>
             <header class='relative w-[100%] max-w-[100%] pl-[2%] text-gray-700 text-xl text-center font-semibold font-[montserrat] py-[.1%] bg-gray-300'>{Context.detailSpec[3].category}</header>
             <table class='relative w-[100%] max-w-[100%] h-[fit-content]'>
             {info.map((data)=>{

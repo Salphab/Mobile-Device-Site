@@ -3,7 +3,7 @@ function TileX6(props){
     return(
         <section class='relative block w-[100%] mt-[4%] max-w-[100%] h-[fit-content]'>
             <h1 class='relative ml-[1%] text-[1.5rem] font-semibold font-[monserrat]'>{props.title}</h1>
-            <div class='relative grid grid-cols-12 gap-x-[2%] gap-y-[2%] grid-rows-6 h-[80vh]'>
+            <div class='relative grid grid-cols-12 gap-x-[1%] gap-y-[2%] grid-rows-6 h-[90vh]'>
                 <a class='relative rounded bg-white col-start-1 col-end-7 row-start-1 row-end-3 border-[1px]'>
 
                 </a>

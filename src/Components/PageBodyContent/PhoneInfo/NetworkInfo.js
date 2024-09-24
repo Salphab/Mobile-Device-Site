@@ -5,7 +5,7 @@ function NetworkInfo(){
     const info = Context.detailSpec[0].specifications;
 
     return(
-        <div class='relative block w-[100%] max-w-[100%] h-[fit-content]'>
+        <div class='relative bg-slate-50 block w-[100%] max-w-[100%] h-[fit-content]'>
             <header class='relative w-[100%] max-w-[100%] pl-[2%] text-gray-700 text-xl text-center font-semibold font-[montserrat] py-[.1%] bg-gray-300'>{Context.detailSpec[0].category}</header>
             <table class='relative w-[100%] max-w-[100%] h-[fit-content]'>
             {info.map((data)=>{

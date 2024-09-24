@@ -24,7 +24,7 @@ function DeviceFullInfo(){
                                 <MiscInfo />, <TestInfo />]
     const RouteResult = ComponentRouteArray.slice(0,info-1)
     return(
-        <section class='relative block w-[100%] max-w-[100%] mt-[2%] h-[fit-content]'>
+        <section class='relative block w-[100%] max-w-[100%] mt-[.5%] h-[fit-content]'>
             {RouteResult.map((data)=>{return data})}
         </section>
     )

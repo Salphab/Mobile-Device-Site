@@ -14,8 +14,8 @@ import { context } from "../../../Pages/PhonePage/PhonePersona";
 function DeviceSummary(){
     const Context = useContext(context);
     return(
-        <div class='relative flex w-[100%] max-w-[100%] h-[59vh]'>
-                    <div class='relative block mr-[0.5%] w-[100%] max-w-[35%] h-[98%] mt-[0.5%]'>
+        <div class='relative bg-slate-50 flex w-[100%] max-w-[100%] h-[59vh]'>
+                    <div class='relative block mr-[0.5%] border-r-[1px] w-[100%] max-w-[35%] h-[98%] mt-[0.5%]'>
                         <div class='relative w-[100%] max-w-[80%] h-[65%] m-auto'>
                             <Link to={window.location.url}>
                                 <img class='relative m-auto py-[2%] h-[100%]' src={Context.img} alt={Context.name}/>
@@ -30,8 +30,8 @@ function DeviceSummary(){
                                 <span class='relative font-[montserrat] my-auto ml-[1%] text-sm text-white'>COMPARE</span>
                             </Link>
                     </div>
-                    <div class='relative w-[100%] grid gap-x-[1%] grid-cols-12 grid-row-6 max-w-[68%] m-auto border-[1px] h-[98%]'>
-                        <div class='relative block col-start-1 col-end-6 row-start-1 row-end-7 border-r-[2px] px-[2%]'>
+                    <div class='relative w-[100%] grid gap-x-[1%] grid-cols-12 grid-row-6 max-w-[68%] m-auto h-[98%]'>
+                        <div class='relative block col-start-1 col-end-6 row-start-1 row-end-7 border-r-[1px] px-[2%]'>
                             <div class='relaive flex hover:border-blue-500 hover:border-[1.5px] w-[100%] max-w-[100%] h-[fit-content] border-[1.5px] border-black rounded mt-[1%] mb-[2%]'>
                                 <div class='relative flex w-[100%] max-w-[25%] h-[80%] my-auto ml-[1%]'>
                                     <CalendarMonthIcon className='relative m-auto text-blue-500 text-[1.7rem]' />

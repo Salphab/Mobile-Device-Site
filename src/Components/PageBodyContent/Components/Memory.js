@@ -45,7 +45,7 @@ function Memory() {
     })
 
     return (
-        <section className='relative block w-[100%] max-w-[100%] h-[fit-content]'>
+        <section className='relative bg-slate-50 mt-[1%] rounded block w-[100%] max-w-[100%] h-[fit-content]'>
             <div className='relative w-[100%] max-w-[100%] h-[12%]'>
                 <h2 className='relative w-[100%] max-w-[100%] pl-[2%] py-[2%] font-[ariel] text-lg font-bold h-[100%]'>Memory</h2>
             </div>

@@ -5,7 +5,7 @@ function TopSellers(){
             <header class='relative bg-black text-white rounded flex w-[100%] mb-[2%] max-w-[100%] h-[10%]'>
                 <h1 class='relative m-auto font-semibold'>10 Top Trending Devices</h1>
             </header>
-            <div class='relative bg-white flex w-[100%] max-w-[100%] h-[88%]'>
+            <div class='relative bg-slate-50 flex w-[100%] max-w-[100%] h-[88%]'>
 
             </div>
         </section>

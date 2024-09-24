@@ -9,13 +9,13 @@ function HomeContent(){
     return(
         <section class='relative block col-start-4 col-end-13 h-[fit-content]'>
             <TopCoursel/>
-            <CardsX6 title='Recently Released'/>
+            <CardsX6 title='Newly Released'/>
             <StretchAdBar/>
-            <Tile title='Latest Stories'/>
             <Cardsx12 title='Popular Comparison'/>
             <CardsX6 title='Top Flagship Devices'/>
-            <TileX6 title='Recent Posts'/>
+            <Tile title='Latest Stories'/>
             <CardsX6 title='Top Mid-range Devices'/>
+            <TileX6 title='Recent Posts'/>
             <StretchAdBar/>
             <CardsX6 title='Top Budget Devices'/>
             <TileX4 title='Recommended Post'/>

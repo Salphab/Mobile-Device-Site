@@ -26,15 +26,15 @@ function Footer(){
                     <li class=' text-sm hover:underline text-white border-white font-light w-[100%] max-w-[fit-content] h-[fit-content] border-r-[1px] px-[3%]'><Link to='/deals'>Deals</Link></li>
                     <li class=' text-sm hover:underline text-white border-white font-light w-[100%] max-w-[fit-content] h-[fit-content] border-r-[1px] px-[3%]'><Link to='/news'>News</Link></li>
                     <li class=' text-sm hover:underline text-white border-white font-light w-[100%] max-w-[fit-content] h-[fit-content] border-r-[1px] px-[3%]'><Link to='/computing'>Computing</Link></li>
-                    <li class=' text-sm hover:underline text-white border-white font-light w-[100%] max-w-[fit-content] h-[fit-content] border-r-[1px] px-[3%]'><Link>FAQ</Link></li>
-                    <li class=' text-sm hover:underline text-white border-white font-light w-[100%] max-w-[fit-content] h-[fit-content] border-r-[1px] px-[3%]'><Link>Site Map</Link></li>
-                    <li class=' text-sm hover:underline text-white border-white font-light w-[100%] max-w-[fit-content] h-[fit-content] border-r-[1px] px-[3%]'><Link>Advertise with us</Link></li>                    
+                    <li class=' text-sm hover:underline text-white border-white font-light w-[100%] max-w-[fit-content] h-[fit-content] border-r-[1px] px-[3%]'><Link to='/faq'>FAQ</Link></li>
+                    <li class=' text-sm hover:underline text-white border-white font-light w-[100%] max-w-[fit-content] h-[fit-content] border-r-[1px] px-[3%]'><Link to='/map'>Site Map</Link></li>
+                    <li class=' text-sm hover:underline text-white border-white font-light w-[100%] max-w-[fit-content] h-[fit-content] border-r-[1px] px-[3%]'><Link to='/advertisement'>Advertise with us</Link></li>                    
                 </ul>
                 <ul class='relative flex w-[100%] max-w-[fit-content] m-auto mt-[1%]'>
-                    <li class='relative mr-[5%]'><Link><YouTubeIcon className='relative text-white '/></Link></li>
-                    <li class='relative mr-[5%]'><Link><InstagramIcon className='relative text-white '/></Link></li>
-                    <li class='relative mr-[5%]'><Link><FacebookIcon className='relative text-white '/></Link></li>
-                    <li class='relative mr-[5%]'><Link><TwitterIcon className='relative text-white '/></Link></li>
+                    <li class='relative mr-[5%]'><Link><YouTubeIcon className='relative text-white hover:text-red-600 '/></Link></li>
+                    <li class='relative mr-[5%]'><Link><InstagramIcon className='relative text-white hover:text-red-400 '/></Link></li>
+                    <li class='relative mr-[5%]'><Link><FacebookIcon className='relative text-white hover:text-blue-500 '/></Link></li>
+                    <li class='relative mr-[5%]'><Link><TwitterIcon className='relative text-white hover:text-blue-400'/></Link></li>
                 </ul>
                 <p class='relative text-white mt-[1%] text-sm text-center'>Company <span>&copy;</span>2024. All Rights Reserved</p>
             </div>

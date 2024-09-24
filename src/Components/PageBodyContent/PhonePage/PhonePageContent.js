@@ -1,6 +1,6 @@
 import PhoneTheme from "./PhonePageTheme";
 import { PhoneContext } from "../../../Hooks/Context/PhoneContext";
-const imgUrl = require('../../../Assets/Img/Phone_List.jpg');
+const imgUrl = require('../../../Assets/Img/Discounts.jpg');
 const imgAlt = 'page theme image';
 function PhonePageContent(){
     return(
