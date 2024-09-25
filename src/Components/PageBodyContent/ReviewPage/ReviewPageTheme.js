@@ -2,7 +2,7 @@ import { useContext } from "react";
 import { ReviewContext } from "../../../Hooks/Context/ReviewContext";
 import Themebanner from "../Themebanner/Themebanner";
 import PopularBrands from "./PopularBrands";
-const  imgSrc = require('../../../Assets/Img/Review_themes.png');
+const  imgSrc = require('../../../Assets/Img/Review_themes (1).jpg');
 function ReviewTheme(){
     let {imgAlt, themeTitle } = useContext(ReviewContext);
     return (

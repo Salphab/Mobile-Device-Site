@@ -8,10 +8,9 @@ function DeviceList(){
     const newcontext = useContext(context)
         return(
             <section class='relative bg-white block col-start-4 col-end-13 h-[fit-content]'>
-                <CategoryInfoBoard count={newcontext[0][1]}/>
-                <Devices payload={newcontext[0][0]}/>
-                <CategoryNavButton button={newcontext[1]}/>
-                
+                <CategoryInfoBoard count={newcontext[0][1]} />
+                <Devices payload={newcontext[0][0]} />
+                <CategoryNavButton button={newcontext[1]} />
             </section>
         )    
     }

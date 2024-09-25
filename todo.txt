@@ -1,0 +1,6 @@
+Next Todo: 
+Start Date: 9 Thursday 25, 2024.
+Deadline:  9 Saturday 28, 2024.
+status: pending
+Describe: "Fix on DeviceList Component, Pass a dynamic object property with device logo, device name and descriprion."
+
