@@ -37,11 +37,11 @@ function ComparisonSearch3(props){
                     {value.length < 1 ?(<p class='relative font-[monserrat] h-[7vh] pt-[3%] text-center'>No search result is found</p>) : value.slice(0,10).map((items)=>{
                         return(
                             <ul> 
-                                <li class='relative p-[1%] hover:text-blue-600 text-[.8rem] font-semibold'><a href='' onClick={()=>{
+                                <li class='relative p-[1%] hover:text-blue-600 text-[.8rem] font-semibold'><button onClick={()=>{
                                     const newUrl = new URL(window.location.href)
                                     newUrl.searchParams.set("phone3",items.replaceAll(' ','_').toLowerCase())
                                     window.history.pushState({},'',newUrl)
-                                }}>{items}</a></li>
+                                }}>{items}</button></li>
                             </ul>
                         )
                     })}

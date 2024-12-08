@@ -11,7 +11,7 @@ function Themebanner(props){
                     <h2 class='relative text-white font-[monserrat] w-[100%] max-w-[fit-content] text-[1.8rem] font-bold ml-4 m-auto'>{props.BannerName}</h2>
                     <form class='relative flex float-right w-[100%] max-w-[50%] h-[100%]'>
                         <label class='relative italic  font-bold font-[monserrat] m-auto mx-3 text-white' htmlFor="search">Filter :</label>
-                        <input class='relative rounded m-auto w-[100%] max-w-[50%] focus:border-black placeholder:text-[0.9rem] pl-[1%] placeholder:font-[monserrat] placeholder:text-black placeholder:px-[1%] placeholder:left-[2%] focus:outline-none mx-1 h-[50%] ' type="text" name="search" placeholder='Search by device'/>
+                        <input autoComplete="off" class='relative rounded m-auto w-[100%] max-w-[50%] focus:border-black placeholder:text-[0.9rem] pl-[1%] placeholder:font-[monserrat] placeholder:text-black placeholder:px-[1%] placeholder:left-[2%] focus:outline-none mx-1 h-[50%] ' type="text" name="search" placeholder='Search by device'/>
                         <input class='relative bg-blue-900 rounded text-white font-semibold text-sm font-[monserrat] m-auto mx-0 w-[100%] max-w-[15%] h-[50%]' type='submit' />
                     </form>
                 </div>  

@@ -31,7 +31,7 @@ function Header(){
             </div>
                 <div class='relative w-[100%] max-w-[100%] flex h-[13vh]'>
                     <form class='relative mt-[2%] w-[100%] h-[55%] ml-[35%] flex max-w-[30%]'>
-                        <input  type='text' name='search' placeholder='search for device' class='relative border-y-[1px] rounded-l border-l-[1px] pl-[1%] placeholder:font-[monserrat] focus:outline-none border-gray-700 w-[100%] max-w-[75%]' />
+                        <input autoComplete='off'  type='text' name='search' placeholder='search for device' class='relative border-y-[1px] rounded-l border-l-[1px] pl-[1%] placeholder:font-[monserrat] focus:outline-none border-gray-700 w-[100%] max-w-[75%]' />
                         <input  type='submit' value='Search' class='relative bg-blue-900 text-white w-[100%] hover:cursor-pointer rounded-r font-[monserrat] font-semibold text-sm max-w-[25%]' />
                     </form>
                 </div>

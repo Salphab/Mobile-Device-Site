@@ -11,7 +11,7 @@ function Footer(){
                 <h1 class='relative text-center text-xl font-semibold top-[5%]'>LET'S STAY IN TOUCH</h1>
                 <h2 class='relative text-center mt-[1.5%]'>Get our top stories straight to your inbox!</h2>
                 <form class='relative flex w-[100%] bg-black m-auto mt-[2%] max-w-[40%] h-[20%]'>
-                    <input class='relative w-[100%] focus:outline-none placeholder:text-sm pl-[3%] h-[100%] max-w-[80%]' type="text" placeholder="ENTER YOUR EMAIL ADDRESS"/>
+                    <input autoComplete="off" class='relative w-[100%] focus:outline-none placeholder:text-sm pl-[3%] h-[100%] max-w-[80%]' type="text" placeholder="ENTER YOUR EMAIL ADDRESS"/>
                     <input class='relative w-[100%] max-w-[20%] h-[100%] bg-red-500 text-white hover:cursor-pointer' type="submit" value='Subscribe'/>
                 </form>
                 <h3 class='relative text-center mt-[2%] text-xs'>By signing up, you consent to the <a href='/privacy-policy' class='relative text-red-500 hover:underline'>privacy policy.</a></h3>

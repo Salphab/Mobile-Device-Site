@@ -42,11 +42,11 @@ function ComparisonSearch1(props){
                         {value.length < 1 ?(<p class='relative font-[monserrat] pt-[3%] h-[7vh] text-center'>No search result is found</p>) : value.slice(0,10).map((items)=>{
                             return(
                                 <ul> 
-                                    <li class='relative p-[1%] hover:text-blue-600 text-[.8rem] font-semibold'><a href='' onClick={()=>{
+                                    <li class='relative p-[1%] hover:text-blue-600 text-[.8rem] font-semibold'><button onClick={()=>{
                                         const newUrl = new URL(window.location.href)
                                         newUrl.searchParams.set("phone1",items.replaceAll(' ','_').toLowerCase())
                                         window.history.pushState({},'',newUrl)
-                                    }}>{items}</a></li>
+                                    }}>{items}</button></li>
                                 </ul>
                             )
                         })}

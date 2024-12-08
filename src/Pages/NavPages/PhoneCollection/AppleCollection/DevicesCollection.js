@@ -9,20 +9,28 @@ import { createContext, useEffect, useState} from 'react';
 export const context = createContext();
 
 export function DeviceCollections(props){
-    const [payload, setpayload] = useState('');
+    const [phonePayload, setPhonePayload] = useState('');
+    const [bannerPayload,setBannerPayload] = useState('')
     useEffect(()=>{
-        axios.get(props.url)
+        axios.get(props.payload.phone_url)
         .then((res)=>{
-            setpayload(res.data)
+            setPhonePayload(res.data)
         })
         .catch(error =>{
             console.log(error)
         })
-    },[props.url])
+        axios.get(props.payload.banner_url)
+        .then((res)=>{
+            setBannerPayload(res.data)
+        })
+        .catch(error =>{
+            console.log(error)
+        })
+    },[props.payload.phone_url,props.payload.banner_url])
 
-    if(payload){
+    if(phonePayload){
         return(
-            <context.Provider value={[payload,props.button]} class='relative block'>
+            <context.Provider value={[phonePayload,props.button,props.label,bannerPayload]} class='relative block'>
                 <Header/>
                 <section class='relative grid grid-cols-12 gap-x-[0.5%] w-[100%] max-w-[90%] m-auto h-[fit-content]'>
                     <AppleSidebar />
