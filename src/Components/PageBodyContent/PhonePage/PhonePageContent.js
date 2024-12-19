@@ -7,7 +7,7 @@ function PhonePageContent(){
         <PhoneContext.Provider value={{imgUrl, imgAlt}}>
             <section class='relative block col-start-4 col-end-13 h-[fit-content]'>
                 <PhoneTheme />
-                <body class='relatieve h-[fit-content]'>
+                <body class='relative h-[fit-content]'>
                     
                 </body>
             </section>

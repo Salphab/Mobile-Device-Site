@@ -12,6 +12,7 @@ export function DeviceCollections(props){
     const [phonePayload, setPhonePayload] = useState('');
     const [bannerPayload,setBannerPayload] = useState('')
     useEffect(()=>{
+        console.log(props.payload.phone_url)
         axios.get(props.payload.phone_url)
         .then((res)=>{
             setPhonePayload(res.data)
