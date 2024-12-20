@@ -8,6 +8,7 @@ import AppleDevices from './Routers/Device/DevicePersonaRoute.js';
 import FooterLinks from './Routers/FooterLinks.js';
 import reportWebVitals from './reportWebVitals';
 import ReviewPages from './Routers/ReviewPages/ReviewPages.js';
+import Articules from './Routers/Articules/Articles_Router.js';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -18,6 +19,7 @@ root.render(
     <AppleDevices />
     <FooterLinks />
     <ReviewPages />
+    <Articules />
   </BrowserRouter>
 );
 

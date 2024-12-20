@@ -7,7 +7,7 @@ function GeneralReviewList() {
     const { url } = useContext(ReviewContext);
     const [PhoneReview, setPhoneReview] = useState([]);
     const [isLoading, setIsLoading] = useState(true);
-    const textHoverEffects = useRef([]); // Array of refs
+    const textHoverEffects = useRef([]);
 
     const mouseOver = (index) => {
         textHoverEffects.current[index].style.color = '#0E4FE3';
@@ -26,8 +26,9 @@ function GeneralReviewList() {
             .catch((error) => {
                 console.log(error);
                 setIsLoading(false);
-            });
-    }, [url]);
+            });      
+    },
+    [url]);
 
     if (!isLoading && PhoneReview.data?.length > 0) {
         return (
@@ -37,11 +38,11 @@ function GeneralReviewList() {
                     const altText = data.attributes.exhibition?.data?.attributes?.alternativeText || 'Image';
                     const title = data.attributes.meta.title || 'No Title';
                     const publishDate = data.attributes.meta.Publish_date || 'Unknown';
-
+                    let content_href = data.attributes.meta.title.replaceAll(" ","_")              
                     return (
                         <Link
                             key={data.id}
-                            to=""
+                            to={content_href+"_id"+data.id}
                             onMouseOver={() => mouseOver(index)}
                             onMouseLeave={() => mouseLeave(index)}
                             className="relative shadow-xl shadow-gray-400 block rounded bg-slate-50 h-[50vh]"
@@ -53,7 +54,7 @@ function GeneralReviewList() {
                                 alt={altText}
                             />
                             <h2
-                                ref={(el) => (textHoverEffects.current[index] = el)} // Assign unique ref
+                                ref={(el) => (textHoverEffects.current[index] = el)}
                                 className="relative w-full px-[2%] text-md mt-[5%] text-black leading-5 max-w-[95%] font-bold font-[monserrat] text-justify"
                             >
                                 {title}
